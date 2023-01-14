@@ -1,6 +1,6 @@
 # Group-1-Miami-PT43-FE
 
-Alberto Lazo - DEV
+Alberto La zo - DEV
 
 Christopher Morejon
 
