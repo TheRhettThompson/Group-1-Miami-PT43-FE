@@ -1,0 +1,1 @@
+// gives all the files in our project access to actions and props (need to import appContext on those pages)
