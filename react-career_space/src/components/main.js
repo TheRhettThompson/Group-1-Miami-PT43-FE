@@ -2,11 +2,11 @@ import React from "react";
 import Table from 'react-bootstrap/Table';
 
 
-function Home() {
+function Main() {
     return (
         <div>
             <h1>
-                This is the Home page
+                This is the Main page
             </h1>
             <Table striped bordered hover>
                 <thead>
@@ -45,4 +45,4 @@ function Home() {
     )
 }
 
-export default Home
+export default Main

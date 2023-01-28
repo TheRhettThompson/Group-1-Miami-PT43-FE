@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from './components/navbar';
 import Home from './components/home';
 import Footer from './components/footer';
+import Landing from './views/landing';
 
 
 function App() {
@@ -10,9 +11,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Navbar/>
-        <Home/>
+        {/* add react routes here*/}
+        <Main/>
         <Footer/>
-        {/* add react routes here */}
+        
+     
         
       </header>
     </div>
