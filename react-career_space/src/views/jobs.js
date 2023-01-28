@@ -1,6 +1,7 @@
 import React from "react";
 import { useContext } from "react";
 import { Context } from "../store/appContext";
+import "../styles/jobs.css"
 
 //substitute Jobs for People from Star Wars API project
 const People = () => {

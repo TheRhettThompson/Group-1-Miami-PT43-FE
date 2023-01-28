@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "../styles/home.css"
 
 function Home() {
   return (
@@ -11,4 +11,4 @@ function Home() {
 
 export default Home
 
-// Home page is totally separate page. 
+ 
