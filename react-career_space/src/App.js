@@ -10,6 +10,7 @@ import Landing from './views/landing';
 import Register from './views/register';
 import Login from './views/login';
 import AboutUs from './views/aboutUs';
+import Jobs from './views/jobs';
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
           <Route exact path="/aboutus" element={<AboutUs />} />
           <Route exact path="/home" element={<Home />} />
           <Route exact path="/landing" element={<Landing />} />
-          <Route exact path="/jobs" element={<Landing />} />
+          <Route exact path="/jobs" element={<Jobs/>} />
 
         </Routes>
       <Footer />

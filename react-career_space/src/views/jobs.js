@@ -1,47 +1,38 @@
-import React from "react";
-import { useContext } from "react";
-import { Context } from "../store/appContext";
-import "../styles/jobs.css"
+import React, { useState, useEffect } from "react";
+import { get_jobs } from "../api_code";
 
-//substitute Jobs for People from Star Wars API project
-const People = () => {
 
-    const { store, actions } = useContext(Context);
-    const starWarsCharacters = store.people.map((character, index) => {
-        return(
-            <div key={index} className="container card col-sm-4">
-                <div className="card-header">Name: {character.name}</div>
-                <img src={`https://starwars-aws.s3.amazonaws.com/img/characters/${character.name}.jpg`}
-                className= 'card-img-top card-details mt-3 mb-1'
-/>
+const Jobs = () => {
 
-                <div className="card-details">
-                    Height: {character.height}
-                    <br></br>
-                    Birthday: {character.birth_year}
-                    <br></br>
-                    Gender: {character.gender}
-                </div>
-                <div className="button-card">
-                    <button>
-                        Learn More!
-                    </button>
-                    <button
-                    onClick={() => actions.addToFavorites(character.name)}
-                    className="fas fa-heart btn fav-btn">
-                    
-                    </button>
-                </div>
-            </div>
-        )
+    const [jobs, setJobs] = useState([])
+    useEffect(() => {
+        function settingJobs() {
+            let newJobs = get_jobs
+            setJobs(newJobs)
+            console.log(newJobs)
+        }
+
+        settingJobs()
     })
 
     return (
         <div>
-            {starWarsCharacters}
+
+            {jobs.map((item, index) => {
+                return (
+                    <div>
+
+                        <h1>{item.company.name}</h1>
+                        <h1>{item.job_title_normalized}</h1>
+                        <h1>{item.location_name}</h1>
+
+                    </div>
+                )
+
+            })}
         </div>
     )
 
 }
 
-export default People;
+export default Jobs;
