@@ -11,6 +11,7 @@ import Register from './views/register';
 import Login from './views/login';
 import AboutUs from './views/aboutUs';
 import Jobs from './views/jobs';
+import Modal from './views/modal';
 
 
 function App() {
