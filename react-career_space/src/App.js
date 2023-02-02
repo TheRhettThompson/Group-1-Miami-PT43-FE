@@ -1,17 +1,26 @@
 import './App.css';
 import React from 'react';
-
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Navbar from './components/navbar';
-import Home from './views/home';
+// import Header from '/components/header';
 import Footer from './components/footer';
-import Landing from './views/landing';
-import Register from './views/register';
-import Login from './views/login';
+
 import AboutUs from './views/aboutUs';
+// import Dashboard from './views/dashboard';
+// import FavoriteJobs from './views/favoritejobs';
+import Home from './views/home';
 import Jobs from './views/jobs';
-import Modal from './views/modal';
+import Landing from './views/landing';
+import Login from './views/login';
+// import Modal from './views/modal';
+import Register from './views/register';
+
+
+
+
+
+
 
 
 function App() {

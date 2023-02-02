@@ -1,23 +1,21 @@
-import React, { useState, useEffect } from "react";
-import { get_jobs } from "../api_code";
-
-
+import React, { useState, useEffect, useContext } from "react";
+import { Context } from "../store/appContext";
 
 const Jobs = () => {
-
     const [jobs, setJobs] = useState([])
+    const { actions } = useContext(Context)
+
     useEffect(() => {
         async function settingJobs() {
-            let newJobs = await get_jobs()
+            let newJobs = await actions.getJobs()
             setJobs(newJobs)
-            console.log(newJobs)
-            console.log("jobs", jobs)
         }
 
-        settingJobs()
-        console.log("jobs", jobs)
-      
-    },[])
+        settingJobs();
+
+    }, [])
+
+
 
     return (
         <div>
