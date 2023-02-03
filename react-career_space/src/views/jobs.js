@@ -2,8 +2,6 @@ import React, { useState, useEffect, useContext } from "react";
 import { Context } from "../store/appContext";
 // these are for bootstrap buttons
 
-
-
 const Jobs = () => {
     const [jobs, setJobs] = useState([])
     const { actions } = useContext(Context)
