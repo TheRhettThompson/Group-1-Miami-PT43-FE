@@ -22,7 +22,7 @@ const injectContext = (PassedComponent) => {
     );
 
     useEffect(() => {
-
+      state.actions.getJobs();
       state.actions.loadData(); // <---- calling this function from the flux.js actions
     }, []);
 
