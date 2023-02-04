@@ -23,7 +23,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         fetch("https://glassdoor.p.rapidapi.com/jobs/search?keyword=software%20engineer&location_id=1154170&location_type=C&page_id=1&page_cursor=AB4AAYEAHgAAAAAAAAAAAAAAAcAnhckAUgEBAQcEGhsQ16pNSro70dxiUjUW7SeKfZZSrStk5I51mXxHzCrtp1Zt1Gox6xKANcdSbluwPnLv0Lxu3SFKh8C33qAPvr9HZT%2BBpC%2FK8wtBPaUAAA%3D%3D", options)
           .then(response => response.json())
           .then(response => console.log(response))
-          .then(data => setStore({ jobs: data[0].hits }))
+          .then(data => setStore({ jobs: data.properties.hits}))
           .catch(error => console.log(error))
       },
 
