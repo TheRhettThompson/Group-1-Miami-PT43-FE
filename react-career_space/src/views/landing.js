@@ -8,26 +8,67 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
-function Landing() {
+export const Landing = () => {
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
+
   return (
-    <div className="Landing">
-      <h1>
-        This is the Landing page
-      </h1>
 
-        {/* function ContainerFluidExample() {
-          return (
-            <Container fluid>
-              <Row>
-                <Col>1 of 1</Col>
-              </Row>
-            </Container>
-          );
-        } */}
 
-      
 
-      <div className= "Carousel fade">
+
+// CODE FROM CARLOS
+//     <Carousel activeIndex={index} onSelect={handleSelect}>
+//       <Carousel.Item>
+//         <img
+//           className="d-block w-100"
+//           src="https://www.premiere-urgence.org/wp-content/uploads/2021/11/800x400.png"
+//           alt="First slide"
+//         />
+//         <Carousel.Caption>
+//           <h3>First slide label</h3>
+//           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+//         </Carousel.Caption>
+//       </Carousel.Item>
+//       <Carousel.Item>
+//         <img
+//           className="d-block w-100"
+//           src="https://www.premiere-urgence.org/wp-content/uploads/2021/11/800x400.png"
+//           alt="Second slide"
+//         />
+
+//         <Carousel.Caption>
+//           <h3>Second slide label</h3>
+//           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+//         </Carousel.Caption>
+//       </Carousel.Item>
+//       <Carousel.Item>
+//         <img
+//           className="d-block w-100"
+//           src="https://www.premiere-urgence.org/wp-content/uploads/2021/11/800x400.png"
+//           alt="Third slide"
+//         />
+
+//         <Carousel.Caption>
+//           <h3>Third slide label</h3>
+//           <p>
+//             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+//           </p>
+//         </Carousel.Caption>
+//       </Carousel.Item>
+//     </Carousel>
+
+//   );
+// }
+
+export default Landing;
+
+
+// ORIGINAL CODE FROM THE OTHER DAY -- LOOK AT PHOTOS LINKS
+{/* <div className= "Carousel fade">
         <Carousel.Item>
           <img
             className="d-block w-100"
@@ -83,4 +124,4 @@ function Landing() {
 
 }
 
-export default Landing
+export default Landing */}
