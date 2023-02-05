@@ -2,7 +2,6 @@ import './App.css';
 import React from 'react';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-
 import Navbar from './components/navbar';
 // import Header from '/components/header';
 import Footer from './components/footer';
@@ -17,20 +16,12 @@ import Login from './views/login';
 // import Modal from './views/modal';
 import Register from './views/register';
 
-
-
-
-
-
-
-
 function App() {
   return (
 
     <div className="App">
-     <BrowserRouter>
+    <BrowserRouter>
       <Navbar />
-        
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route exact path="/register" element={<Register />} />
@@ -39,10 +30,9 @@ function App() {
           <Route exact path="/home" element={<Home />} />
           <Route exact path="/landing" element={<Landing />} />
           <Route exact path="/jobs" element={<Jobs/>} />
-
         </Routes>
       <Footer />
-      </BrowserRouter>
+    </BrowserRouter>
 
 
     </div>
