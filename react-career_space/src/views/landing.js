@@ -12,7 +12,53 @@ function Landing() {
         This is the Landing page
       </h1>
 
-        {/* function ContainerFluidExample() {
+
+
+
+      <Carousel fade>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 myimage"
+            src="https://images.unsplash.com/photo-1562517634-baa2da3acfbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80"
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <h3>Your next tech job could be under the sun</h3>
+            <p>Search here for jobs in South Florida.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="holder.js/800x400?text=Second slide&bg=282c34"
+            alt="Second slide"
+          />
+
+          <Carousel.Caption>
+            <h3>Second slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="holder.js/800x400?text=Third slide&bg=20232a"
+            alt="Third slide"
+          />
+
+          <Carousel.Caption>
+            <h3>Third slide label</h3>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+
+
+      export default CarouselFadeExample;
+
+      {/* function ContainerFluidExample() {
           return (
             <Container fluid>
               <Row>
@@ -22,9 +68,9 @@ function Landing() {
           );
         } */}
 
-      
 
-      <div className= "Carousel fade">
+
+      {/* <div className= "Carousel fade">
         <Carousel.Item>
           <img
             className="d-block w-100"
@@ -61,22 +107,18 @@ function Landing() {
             <p>Search for tech jobs in Miami and South Florida here.</p>
           </Carousel.Caption>
         </Carousel.Item>
-      </div>
+      </div> */}
 
 
 
       <ButtonGroup aria-label="Basic example">
-        <Button variant="secondary">Front End</Button>
-        <Button variant="secondary">Back End</Button>
-        <Button variant="secondary">Full Stack</Button>
+        <Button className='button' variant="secondary">Front End</Button>
+        <Button className='button' variant="secondary">Back End</Button>
+        <Button className='button' variant="secondary">Full Stack</Button>
       </ButtonGroup>
-
+      
     </div>
   )
-
-
-
-
 
 }
 
