@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import { Context } from "../store/appContext";
-import "../styles/register.css"
+import "../styles/signup.css"
 
 // function Register() {
 //   return (
@@ -12,8 +12,8 @@ import "../styles/register.css"
 
  
 
-export const Register = () => {
-  const { actions } = useContext(Context);
+export const signup = () => {
+  const context = useContext(Context);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -44,7 +44,7 @@ export const Register = () => {
       </div>
 
       <div>
-        <button onClick={() => actions.sign_up(email, password)} className="btn btn-primary">
+        <button onClick={() => context.actions.signup(email, password)} className="btn btn-primary">
           Submit
         </button>
       </div>
@@ -56,4 +56,4 @@ export const Register = () => {
 };
 
 
-export default Register
+export default signup

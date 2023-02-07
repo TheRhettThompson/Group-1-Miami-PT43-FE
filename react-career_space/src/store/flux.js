@@ -27,6 +27,32 @@ const getState = ({ getStore, getActions, setStore }) => {
       //     .catch(error => console.log(error))
       // },
 
+      signup: (email, password) => {
+        const store = getStore();
+
+        fetch(`${store.api}/api/signup/`, {
+          method: "POST",
+          body: JSON.stringify({
+            email: email,
+            password: password,
+          }),
+          headers: {
+            "Content-type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+          },
+        })
+          .then((resp) => {
+            if (resp.ok) {
+              return resp.json();
+            }
+          })
+          .then((data) => {
+            localStorage.setItem("token", data.token);
+            setStore({ isAuthenticated: true });
+          })
+          .catch((error) => console.log("Error during login:", error));
+      },
+
       getJobs: async () => {
         const store = getStore()
         const response = await fetch(

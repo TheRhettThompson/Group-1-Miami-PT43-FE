@@ -8,7 +8,7 @@ import Home from './views/home';
 import Jobs from './views/jobs';
 import Landing from './views/landing';
 import Login from './views/login';
-import Register from './views/register';
+import Signup from './views/signup';
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
         
         <Routes>
           <Route path="/" element={<Landing />} />
-          <Route exact path="/register" element={<Register />} />
+          <Route exact path="/signup" element={<Signup />} />
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/aboutus" element={<AboutUs />} />
           <Route exact path="/home" element={<Home />} />
