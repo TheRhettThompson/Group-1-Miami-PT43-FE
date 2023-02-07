@@ -1,6 +1,5 @@
 import React, { useContext, useState } from "react";
 import { Context } from "../store/appContext";
-import { Link } from "react-router-dom"
 import "../styles/register.css"
 
 // function Register() {
@@ -14,7 +13,7 @@ import "../styles/register.css"
  
 
 export const Register = () => {
-  const { store, actions } = useContext(Context);
+  const { actions } = useContext(Context);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
