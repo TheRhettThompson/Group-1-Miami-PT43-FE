@@ -10,12 +10,14 @@ import Landing from './views/landing';
 import Login from './views/login';
 import Signup from './views/signup';
 import Modal from './views/modal.js';
+ 
 
 
 function App() {
   return (
 
     <div className="App">
+      
       <BrowserRouter>
         <Navbar />
 
@@ -34,6 +36,8 @@ function App() {
 
 
     </div>
+
+     
   );
 }
 
