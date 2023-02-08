@@ -15,9 +15,9 @@ function Landing() {
       </h1> */}
 
       <Carousel fade>
-        <Carousel.Item1>
+        <Carousel.Item>
           <img
-            className="d-block w-100 myimage"
+            className="d-block w-100 myimage1"
             src="https://images.unsplash.com/photo-1562517634-baa2da3acfbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80"
             alt="First slide"
           />
@@ -25,11 +25,11 @@ function Landing() {
             <h3>Your next tech job could be under the sun</h3>
             <p>Search here for jobs in South Florida.</p>
           </Carousel.Caption>
-        </Carousel.Item1>
+        </Carousel.Item>
 
         <Carousel.Item>
           <img
-            className="d-block w-100 myimage"
+            className="d-block w-100 myimage2"
             src="https://images.unsplash.com/photo-1546709344-8be01dfbc721?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
             alt="Second slide"
           />
@@ -41,7 +41,7 @@ function Landing() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100 myimage"
+            className="d-block w-100 myimage3"
             src="https://images.unsplash.com/photo-1506812574058-fc75fa93fead?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
             alt="Third slide"
           />

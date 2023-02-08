@@ -11,9 +11,24 @@
         rgba(173, 151, 79, 1) 40%);
 } */
 
-.myimage{
+.myimage1{
     width: 800px;
     height: 400px;
+    filter: brightness(80%);
+    object-fit: cover;
+  
+}
+
+.myimage2{
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.myimage3{
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
 }
 
 .Landing{
