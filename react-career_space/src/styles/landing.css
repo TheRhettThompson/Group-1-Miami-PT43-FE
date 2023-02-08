@@ -2,19 +2,25 @@
     height: 100%;
     font-size: 20px;
 }
-gradient {
+
+/* gradient {
     background: rgb(2, 0, 36);
     background: linear-gradient(
         90deg, 
         rgba(2, 0, 36, 1) 0%,
         rgba(173, 151, 79, 1) 40%);
-}
+} */
 
 .myimage{
-    width: 200px;
+    width: 800px;
+    height: 400px;
 
 }
 
 .Landing{
-    background-color: red;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        90deg, 
+        rgba(2, 0, 36, 1) 0%,
+        rgba(173, 151, 79, 1) 40%);
 }

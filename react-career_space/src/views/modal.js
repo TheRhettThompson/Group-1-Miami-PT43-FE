@@ -13,22 +13,22 @@ function ModalPage() {
 
   return (
 
-    <><h1>Testing modal</h1>
-      <Button variant="primary" onClick={handleShow}>
-        Launch demo modal
+    <><h1>Looking for work?</h1>
+      <Button variant="warning" onClick={handleShow}>
+        Find your next tech job now
       </Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>Get tech jobs in your inbox</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <Form.Label>Email address</Form.Label>
+              <Form.Label>email address</Form.Label>
               <Form.Control
                 type="email"
-                placeholder="name@example.com"
+                placeholder="email@example.com"
                 autoFocus
               />
             </Form.Group>
@@ -45,7 +45,7 @@ function ModalPage() {
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
-          <Button variant="primary" onClick={handleClose}>
+          <Button variant="warning" onClick={handleClose}>
             Save Changes
           </Button>
         </Modal.Footer>

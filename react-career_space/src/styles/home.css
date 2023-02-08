@@ -1,8 +1,13 @@
 .home{
     text-align: center;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(173, 151, 79, 1) 40%);
 }
 
 .button{
     padding: 10px;
     margin-left: 10px;
 }
+

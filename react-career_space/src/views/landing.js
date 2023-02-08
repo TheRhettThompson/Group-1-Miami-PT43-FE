@@ -8,12 +8,9 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 function Landing() {
   return (
     <div className="Landing">
-      <h1>
+      {/* <h1>
         This is the Landing page
-      </h1>
-
-
-
+      </h1> */}
 
       <Carousel fade>
         <Carousel.Item>
@@ -29,94 +26,69 @@ function Landing() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=282c34"
+            className="d-block w-100 myimage"
+            src="https://images.unsplash.com/photo-1546709344-8be01dfbc721?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
             alt="Second slide"
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Work magic in the Magic City</h3>
+            <p>Enter here for jobs in Miami-Dade, Broward, and South Florida.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
+            className="d-block w-100 myimage"
+            src="https://images.unsplash.com/photo-1506812574058-fc75fa93fead?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
             alt="Third slide"
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <h3>Why work in Silicon Valley when you could have endless beaches?</h3>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              Search for tech jobs in Miami and South Florida here.
             </p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
 
+       
 
-      export default CarouselFadeExample;
-
-      {/* function ContainerFluidExample() {
-          return (
-            <Container fluid>
-              <Row>
-                <Col>1 of 1</Col>
-              </Row>
-            </Container>
-          );
-        } */}
-
-
-
-      {/* <div className= "Carousel fade">
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://images.unsplash.com/photo-1562517634-baa2da3acfbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80.holder.js/400x400?text=First slide"
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h3>Your next tech job could be under the sun</h3>
-            <p>Search here for jobs in South Florida</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://images.unsplash.com/photo-1546709344-8be01dfbc721?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80/800x400?text=Second slide"
-             alt="Second slide"
-          />
-              
-          <Carousel.Caption>
-            <h3>Work magic in the Magic City</h3>
-            <p>Enter here for jobs in Miami-Dade, Broward, and South Florida</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://images.unsplash.com/photo-1506812574058-fc75fa93fead?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80/800x400?text=Third slide"
-            alt="Third slide"
-          />
-          <Carousel.Caption>
-            <h3>Why work in Silicon Valley when you could have endless beaches?</h3>
-            <p>Search for tech jobs in Miami and South Florida here.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </div> */}
-
-
-
-      <ButtonGroup aria-label="Basic example">
-        <Button className='button' variant="secondary">Front End</Button>
-        <Button className='button' variant="secondary">Back End</Button>
-        <Button className='button' variant="secondary">Full Stack</Button>
+ 
+    <>
+      <ButtonGroup size="lg" className="mb-2">
+        <h4>Look for jobs on the go</h4>
+        
+        <Button>Left</Button>
+        {/* <Button>Middle</Button> */}
+        <Button>Right</Button>
       </ButtonGroup>
-      
+      <br />
+      <ButtonGroup className="mb-2">
+        <Button>Left</Button>
+        <Button>Middle</Button>
+        <Button>Right</Button>
+      </ButtonGroup>
+      <br />
+      <ButtonGroup size="sm">
+        <Button>Left</Button>
+        <Button>Middle</Button>
+        <Button>Right</Button>
+      </ButtonGroup>
+    </>
+  );
+}
+
+export default SizesExample;
+
+
+          
+      {/* <ButtonGroup aria-label="Basic example">
+        <Button className='button' variant="warning">Front End</Button>
+        <Button className='button' variant="warning">Back End</Button>
+        <Button className='button' variant="warning">Full Stack</Button>
+      </ButtonGroup> */}
+
     </div>
   )
 
