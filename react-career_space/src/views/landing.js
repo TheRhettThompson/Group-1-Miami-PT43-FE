@@ -1,9 +1,10 @@
 import React from 'react';
 import "../styles/landing.css"
 import Carousel from 'react-bootstrap/Carousel';
-// these are for bootstrap buttons
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
+
+
 
 function Landing() {
   return (
@@ -24,6 +25,7 @@ function Landing() {
             <p>Search here for jobs in South Florida.</p>
           </Carousel.Caption>
         </Carousel.Item>
+
         <Carousel.Item>
           <img
             className="d-block w-100 myimage"
@@ -52,37 +54,33 @@ function Landing() {
         </Carousel.Item>
       </Carousel>
 
-       
+      <>
+        <h1>Join thousands who have found their next tech job right here
+         with a block for LOCATION + MAG GLASS, JOB TITLE BUTTTON WITH DROP DOWN?, BUTTON TO EXPLORE JOBS...OR, first, last name, zip code, email address, choose a password user and password, button says sign up</h1>
+        <h1>By siGning up for Career Space, you agree to Career Space's Terms of Service & Privacy Policy,
+          each one has a hyperlink to those pages</h1>
+        <h1>Or sign up using then put social media icons: LinkedIn, Google, Facebook, GitHub</h1>
 
- 
-    <>
-      <ButtonGroup size="lg" className="mb-2">
-        <h4>Look for jobs on the go</h4>
-        
-        <Button>Left</Button>
-        {/* <Button>Middle</Button> */}
-        <Button>Right</Button>
-      </ButtonGroup>
-      <br />
-      <ButtonGroup className="mb-2">
-        <Button>Left</Button>
-        <Button>Middle</Button>
-        <Button>Right</Button>
-      </ButtonGroup>
-      <br />
-      <ButtonGroup size="sm">
-        <Button>Left</Button>
-        <Button>Middle</Button>
-        <Button>Right</Button>
-      </ButtonGroup>
-    </>
-  );
-}
+        <h1>Real Life Success stories here</h1>
+        <h1>Meet Gloria, she found here job in coding, insert card here</h1>
 
-export default SizesExample;
+        <h1>Testimonials</h1>
+
+        <h1>I thought I'd have to leave Miami to get a job in coding.
+          But not anymore, with Career Space I know the opportunities are right here! </h1>
 
 
-          
+      </>
+
+    <ButtonGroup aria-label="Basic example" size="lg" className="mb-2">
+      <Button variant="warning">LinkedIn</Button>
+      <Button variant="warning">GitHub</Button>
+      <Button variant="warning">Facebook</Button>
+      <Button variant="warning">Google</Button>
+    </ButtonGroup>
+
+
+
       {/* <ButtonGroup aria-label="Basic example">
         <Button className='button' variant="warning">Front End</Button>
         <Button className='button' variant="warning">Back End</Button>

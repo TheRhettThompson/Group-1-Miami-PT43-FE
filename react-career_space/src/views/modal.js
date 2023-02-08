@@ -13,7 +13,8 @@ function ModalPage() {
 
   return (
 
-    <><h1>Looking for work?</h1>
+    <>
+    <h1>Looking for work?</h1>
       <Button variant="warning" onClick={handleShow}>
         Find your next tech job now
       </Button>
