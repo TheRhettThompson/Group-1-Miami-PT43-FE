@@ -54,7 +54,8 @@
     padding: 5px;
 }
 
-.figure{
+Figure.Caption{
     justify-self: left;
+    color: red;
 }
 

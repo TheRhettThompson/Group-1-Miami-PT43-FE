@@ -10,10 +10,7 @@ import Figure from 'react-bootstrap/Figure';
 function Landing() {
   return (
     <div className="Landing">
-      {/* <h1>
-        This is the Landing page
-      </h1> */}
-
+      
       <Carousel fade>
         <Carousel.Item>
           <img
@@ -55,18 +52,19 @@ function Landing() {
         </Carousel.Item>
       </Carousel>
 
-      <>
-        <h1>Join thousands who have found their next tech job right here
-          with a block for LOCATION + MAG GLASS, JOB TITLE BUTTTON WITH DROP DOWN?, BUTTON TO EXPLORE JOBS...OR, first, last name, zip code, email address, choose a password user and password, button says sign up</h1>
+        <div>
+          <h1>Join thousands who have found their next tech job right here</h1>
+          <br/>
+          <h1>with a block for LOCATION + MAG GLASS??</h1>
+          <br/> 
+          <h1> OR JOB TITLE BUTTTON WITH DROP DOWN? </h1>
+          <h1>OR BUTTON TO EXPLORE JOBS.</h1>
 
 
-        <h1>By siGning up for Career Space, you agree to Career Space's Terms of Service & Privacy Policy,
-          each one has a hyperlink to those pages</h1>
+          <h1>By siGning up for Career Space, you agree to Career Space's Terms of Service & Privacy Policy,
+            each one has a hyperlink to those pages</h1>
 
-
-
-
-      </>
+        </div> 
 
 
 
@@ -88,18 +86,18 @@ function Landing() {
         </Card>
 
         <br />
+
         <Figure>
           <Figure.Image
-            width={371}
-            height={380}
+            width={171}
+            height={180}
             alt="371x380"
             src="https://media.istockphoto.com/id/1212615578/photo/overweight-mature-latin-woman-doing-freelance-work-outdoors-on-laptop.jpg?s=612x612&w=0&k=20&c=69Ttt9FhyKwgwTK8QB_S0pf0149YmVad9j33ChfFcrs="
           />
-          <Figure.Caption>
+          <Figure.Caption style={{color: "red", marginRight: "50px" , backgroundColor: "white"}}> 
             South Florida is on its way to becoming the East Coast Silicon Valley. I want to be a part of it, and Career Space makes it easy!
           </Figure.Caption>
         </Figure>
-
 
         <br />
 
@@ -160,16 +158,11 @@ function Landing() {
         </Card>
       </div>
 
-
-
-
-
-
       <ButtonGroup aria-label="Basic example" size="lg" className="mb-2">
-        <Button variant="warning">LinkedIn FontAwesomeIcon</Button>
-        <Button variant="warning">GitHub</Button>
-        <Button variant="warning">Facebook</Button>
-        <Button variant="warning">Google</Button>
+        <Button variant="warning"><i class="fa-brands fa-linkedin"></i></Button>
+        <Button variant="warning"><i class="fa-brands fa-github"></i></Button>
+        <Button variant="warning"><i class="fa-brands fa-facebook"></i></Button>
+        <Button variant="warning"><i class="fa-brands fa-google"></i></Button>
       </ButtonGroup>
 
     </div>

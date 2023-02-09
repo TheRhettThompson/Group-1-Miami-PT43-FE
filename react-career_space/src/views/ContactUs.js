@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
-import "../styles/modal.css"
+import "../styles/ContactUs.css"
 
   
-function ModalPage() {
+function ContactUs() {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -55,4 +55,4 @@ function ModalPage() {
   );
 }
   
-export default ModalPage
+export default ContactUs

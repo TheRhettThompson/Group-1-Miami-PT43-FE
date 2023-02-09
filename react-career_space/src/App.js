@@ -9,7 +9,7 @@ import Jobs from './views/jobs';
 import Landing from './views/landing';
 import Login from './views/login';
 import Signup from './views/signup';
-import Modal from './views/modal.js';
+import ContactUs from './views/ContactUs.js';
  
 
 
@@ -29,7 +29,7 @@ function App() {
           <Route exact path="/home" element={<Home />} />
           <Route exact path="/landing" element={<Landing />} />
           <Route exact path="/jobs" element={<Jobs />} />
-          <Route exact path="/modal" element={<Modal />} />
+          <Route exact path="/contactus" element={<ContactUs />} />
         </Routes>
         <Footer />
       </BrowserRouter>
