@@ -3,10 +3,12 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import React from "react";
 import "../App.css"
+import { Table } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function NavbarComponent() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" className="navbar">
       <Container>
         <Navbar.Brand href="/" className="logo">
           CareerSpace
