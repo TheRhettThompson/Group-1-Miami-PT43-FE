@@ -1,65 +1,89 @@
-// import React from 'react';
-
-
-// function Login() {
-//   return (
-//     <div className="Login">
-//         <h1>This is the Login page</h1>
-//     </div>
-//   )
-// }
-
-// export default Login
-// 
-
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 import { Context } from "../store/appContext";
-import "../styles/login.css";
-
+import "../styles/signup.css";
+import axios from "axios";
 
 export const Login = () => {
-  const { actions } = useContext(Context);
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [values, setValues] = useState({
+    email: "",
+    password: "",
+  });
 
-  //create a "check" so if they have a login, they will go to Dashboard page
+  const [token, setToken] = useState("");
 
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const { email, password } = values;
+
+    const userData = { email, password };
+
+    const options = {
+      headers: {
+        "Content-type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+      },
+    };
+    await axios
+      .post(
+        `https://3001-therhetttho-group1miami-8zuciurcbbs.ws-us86.gitpod.io/api/login`,
+        userData,
+        options
+      )
+      .then((result) => {
+        window.localStorage.setItem("token", result.data.token);
+        setToken(result.data.token);
+        window.location.href = "/dashboard"
+        console.log(result.data);
+      })
+
+      .catch((error) => {
+        console.log(error);
+      });
+    // try {
+    //   const res = await axios.post(
+    //     `https://3001-therhetttho-group1miami-8zuciurcbbs.ws-us86.gitpod.io/api/login`,
+    //     userData,
+    //     options
+    //   );
+
+    //   const { token } = res.token;
+    //   localStorage.setItem("token", token);
+    // } catch (error) {
+    //   console.log("error", error.response);
+    // }
+  };
+
+  const handleChange = (name) => (event) => {
+    setValues({ ...values, [name]: event.target.value });
+  };
 
   //create State for email and password
 
   return (
     <div>
-      <div className="signup-form">
+      <form className="signup-form" onSubmit={handleSubmit}>
         <div className="forms">
-          <label>Email Address</label>
+          <label>Email</label>
           <input
             type="email"
-            value={email}
+            value={values.email}
             placeholder="Enter your email"
-            onChange={e => setEmail(e.target.value)}
+            onChange={handleChange("email")}
           />
-        </div>
-
-        <div className="forms">
           <label>Password</label>
           <input
             type="password"
-            value={password}
+            value={values.password}
             placeholder="Enter your password"
-            onChange={e => setPassword(e.target.value)}
+            onChange={handleChange("password")}
           />
         </div>
-      </div>
-
-      <div>
-        <button onClick={() => actions.sign_up(email, password)} className="btn btn-primary">
-          Login
-        </button>
-      </div>
+        <button className="btn btn-primary">Submit</button>
+      </form>
     </div>
-    //create button to send data to endpoint (user information)
 
+    //create button to send data to endpoint (user information)
   );
 };
 
-export default Login
+export default Login;

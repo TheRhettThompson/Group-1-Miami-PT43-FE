@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import React from "react";
 import "../App.css"
+
 function NavbarComponent() {
   return (
     <Navbar bg="light" expand="lg">
