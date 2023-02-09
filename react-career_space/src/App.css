@@ -38,7 +38,7 @@
 }
 
 /* FOOTER */
-.Footer p1{
+.Footer p1 {
   color: rgba(146, 146, 146, 0.781);
   font-family: serif;
   font-size: small;
@@ -49,7 +49,7 @@
   margin-bottom: 0%;
 }
 
-.Footer p2{
+.Footer p2 {
   color: rgba(146, 146, 146, 0.781);
   font-family: serif;
   font-size: small;
@@ -60,7 +60,7 @@
   margin-bottom: 0%;
 }
 
-.Footer p3{
+.Footer p3 {
   color: rgba(146, 146, 146, 0.781);
   font-family: serif;
   font-size: small;
@@ -83,13 +83,16 @@
 
 /* NAVBAR */
 .navbar {
-
 }
 
 .logo {
   display: flex;
   flex-direction: row;
   margin-right: 75%;
+  border: 2px double #ad974f !important;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .links {
@@ -107,4 +110,5 @@
 .links-right {
   display: flex;
   flex-direction: row;
+  /* margin-left: 85%; */
 }
