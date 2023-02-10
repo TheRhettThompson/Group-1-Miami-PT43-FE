@@ -1,0 +1,30 @@
+.navbar {
+
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  margin-right: 75%;
+  border: 1px double #ad974f !important;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  width: 100%;
+}
+
+.links-middle {
+  display: flex;
+  flex-direction: row;
+}
+
+.links-right {
+  display: flex;
+  flex-direction: row;
+}

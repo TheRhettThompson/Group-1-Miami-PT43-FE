@@ -1,0 +1,42 @@
+.Footer p1 {
+    color: rgba(146, 146, 146, 0.781);
+    font-family: serif;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    margin-right: 85%;
+    padding: 0px;
+    margin-bottom: 0%;
+  }
+  
+  .Footer p2 {
+    color: rgba(146, 146, 146, 0.781);
+    font-family: serif;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    margin-right: 85%;
+    padding: 0px;
+    margin-bottom: 0%;
+  }
+  
+  .Footer p3 {
+    color: rgba(146, 146, 146, 0.781);
+    font-family: serif;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    margin-right: 85%;
+    padding: 0px;
+    margin-bottom: 1%;
+  }
+  
+  .Footer h1 {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: serif;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    margin-right: 85%;
+    margin-top: 1%;
+  }
