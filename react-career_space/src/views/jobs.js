@@ -1,5 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Context } from "../store/appContext";
+import { Link } from "react-router-dom"
 
 
 function Jobs() {
@@ -21,6 +22,7 @@ function Jobs() {
           })
           .then(response =>  response.json())
           .then(result => {
+            console.log(result)
             const res = Object.values(result);
             const res2 = res[1]
             setJobs(res2);
@@ -39,11 +41,13 @@ console.log("jobs state", jobs)
     
 const listOfJobs = jobs.map((job, index) => {
     return (
+      <Link to = {job.link}>
         <div key={index}>
         {/* {Object.values(job).map((company, index) => {return (<h1 key={index}>{company.name}</h1>)})} */}
         <h1>{job.job_title_text}</h1>
         <h2>{job.location_name}</h2>
     </div>
+    </Link>
 )})
   
 if(loading) return <p>Loading...</p>
