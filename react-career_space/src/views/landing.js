@@ -6,6 +6,8 @@ import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Figure from 'react-bootstrap/Figure';
 import Form from 'react-bootstrap/Form';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 
 function Landing() {
@@ -53,7 +55,7 @@ function Landing() {
         </Carousel.Item>
       </Carousel>
 
-      <div>
+      <div >
         <h1>Career Space</h1>
         <p>The easiest way to search for tech industry jobs in South Florida</p>
 
@@ -76,48 +78,90 @@ function Landing() {
 
       <div className="cardGroupTestimonial">
         <Card style={{ width: '18rem'}}>
-          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Img variant="top" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHN0YXJ0dXAlMjBvZmZpY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=1600&q=60/100px180" />
           <Card.Body>
-            <Card.Title><h2>Why use Career Space?</h2></Card.Title>
+            <Card.Title><h2>Free to use</h2></Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              that's right. Find actual tech job listings at no cost.
             </Card.Text>
           </Card.Body>
         </Card>
         
         <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Img variant="top" src="https://images.unsplash.com/photo-1506606352681-649023fac596?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGFwdG9wJTIwb24lMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1600&q=60/100px180" />
           <Card.Body>
-            <Card.Title><h2>More benefits of Career Space</h2></Card.Title>
+            <Card.Title><h2>Find jobs based in South Florida</h2></Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+            Work from home...on the beach. Or on-site, with beautiful views.
             </Card.Text>
           </Card.Body>
         </Card>
 
         <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Img variant="top" src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHN0YXJ0dXB8ZW58MHx8MHx8&auto=format&fit=crop&w=1600&q=60/100px180" />
           <Card.Body>
-            <Card.Title><h2>Benefits in Bold</h2></Card.Title>
+            <Card.Title><h2>Jobs of all tech levels available</h2></Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+            From junior and entry level, to c-suite, Career Space has it all.
             </Card.Text>
           </Card.Body>
         </Card>
       </div>
 
       <ButtonGroup aria-label="Companies" size="lg" className="mb-2">
-        <Button variant="light">Lennar Logo</Button>
-        <Button variant="light">Ryder Logo </Button>
+        <Button variant="light">Neoris Logo</Button>
+        <Button variant="light">Ryder System Logo </Button>
         <Button variant="light">Chewy Logo</Button>
         <Button variant="light">Citadel Logo</Button>
-        <Button variant="light">StartUp Logo </Button>
-        <Button variant="light">Business Logo</Button>
-        <Button variant="light">Company Logo</Button>
+        <Button variant="light">Brightstar Logo</Button>
+        <Button variant="light">TracFone Wireless Logo</Button>
+        <Button variant="light">ClearSale Logo</Button>
+        <Button variant="light">goTRG Logo</Button>
+        <Button variant="light">Mi9 Retail Logo</Button>
+        <Button variant="light">Alienware Logo</Button>
+        <Button variant="light">OpenEnglish Logo</Button>
       </ButtonGroup>
+
+      <Card>
+        <Card.Header>Live your best life</Card.Header>
+        <Card.Body>
+          <blockquote className="blockquote mb-0">
+            <p>
+              {' '}
+              If you would have told me that I would be able to find a web dev job for an innovative startup that could easily fit in Silicon Valley, but I get to code on the beach, I would have never believed it. Until I found Career Space, of course!{' '}
+            </p>
+            <footer className="blockquote-footer">
+              Jackie Smith <cite title="Source Title">web developer, PalmFrond.com</cite>
+            </footer>
+          </blockquote>
+        </Card.Body>
+      </Card>
+
+            
+      <Row xs={1} md={2} className="g-4">
+        {Array.from({ length: 4 }).map((_, idx) => (
+          <Col>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px160" />
+              <Card.Body>
+                <Card.Title>I love Career Space!</Card.Title>
+                <Card.Text>
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
+      </Row>
+
+
+
+
+
+
+
 
 
        

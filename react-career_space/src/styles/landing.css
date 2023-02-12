@@ -47,12 +47,17 @@
         rgba(173,151,79,0.5776435574229692) 42%);
 }
 
+.cardGroupTestimonial{
+    display: flex;
+    padding: 20px;
+}
+
+
 .SocialMedia{
     padding: 5px;
     height: 100%;
     font-size: 20px;
     color: #ad974f;
-
 }
 
 .cardGroup{
