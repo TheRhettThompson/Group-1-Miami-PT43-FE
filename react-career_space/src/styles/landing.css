@@ -32,17 +32,26 @@
 }
 
 .Landing{
-    background: rgb(2, 0, 36);
+    background: rgb(142,121,62);
     background: linear-gradient(
         90deg, 
-        rgba(2, 0, 36, 1) 0%,
-        rgba(173, 151, 79, 1) 40%);
+        rgba(142,121,62,0.947391456582633) 5%,
+        rgba(173,151,79,0.5776435574229692) 42%);
 }
 
-.buttonGroup{
+.Companies{
+    background: rgb(142,121,62);
+    background: linear-gradient(
+        90deg, 
+        rgba(142,121,62,0.947391456582633) 5%,
+        rgba(173,151,79,0.5776435574229692) 42%);
+}
+
+.SocialMedia{
     padding: 5px;
     height: 100%;
     font-size: 20px;
+    color: #ad974f;
 
 }
 
@@ -59,3 +68,6 @@ Figure.Caption{
     color: red;
 }
 
+Form.Control{
+  padding: 20px;
+}

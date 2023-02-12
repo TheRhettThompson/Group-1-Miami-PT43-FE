@@ -5,12 +5,13 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Figure from 'react-bootstrap/Figure';
+import Form from 'react-bootstrap/Form';
 
 
 function Landing() {
   return (
     <div className="Landing">
-      
+
       <Carousel fade>
         <Carousel.Item>
           <img
@@ -52,25 +53,80 @@ function Landing() {
         </Carousel.Item>
       </Carousel>
 
-        <div>
-          <h1>Join thousands who have found their next tech job right here</h1>
-          <br/>
-          <h1>with a block for LOCATION + MAG GLASS??</h1>
-          <br/> 
-          <h1> OR JOB TITLE BUTTTON WITH DROP DOWN? </h1>
-          <h1>OR BUTTON TO EXPLORE JOBS.</h1>
+      <div>
+        <h1>Career Space</h1>
+        <p>The easiest way to search for tech industry jobs in South Florida</p>
+
+        {/* <h1>By siGning up for Career Space, you agree to Career Space's Terms of Service & Privacy Policy,
+            each one has a hyperlink to those pages</h1> */}
+      </div>
+
+      <Form>
+        <Form.Group className="mb-3" controlId="formBasicEmail">
+          <Form.Label>Find your next tech job in South Florida now.</Form.Label>
+          <Form.Control type="email" placeholder="Enter your email address" />
+          <Form.Text className="text-muted">
+            We'll never share your email with anyone else.
+          </Form.Text>
+        </Form.Group>
+        <Button variant="backGroundColor= #8e793e" type="submit">
+        Start now
+      </Button>
+      </Form>
+
+      <div className="cardGroupTestimonial">
+        <Card style={{ width: '18rem'}}>
+          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Body>
+            <Card.Title><h2>Why use Career Space?</h2></Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        
+        <Card style={{ width: '18rem' }}>
+          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Body>
+            <Card.Title><h2>More benefits of Career Space</h2></Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+
+        <Card style={{ width: '18rem' }}>
+          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Body>
+            <Card.Title><h2>Benefits in Bold</h2></Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </div>
+
+      <ButtonGroup aria-label="Companies" size="lg" className="mb-2">
+        <Button variant="light">Lennar Logo</Button>
+        <Button variant="light">Ryder Logo </Button>
+        <Button variant="light">Chewy Logo</Button>
+        <Button variant="light">Citadel Logo</Button>
+        <Button variant="light">StartUp Logo </Button>
+        <Button variant="light">Business Logo</Button>
+        <Button variant="light">Company Logo</Button>
+      </ButtonGroup>
 
 
-          <h1>By siGning up for Career Space, you agree to Career Space's Terms of Service & Privacy Policy,
-            each one has a hyperlink to those pages</h1>
-
-        </div> 
-
+       
+  
 
 
       <div className='cardGroup'>
         <Card>
-          <Card.Header>Testimonials</Card.Header>
+          {/* <Card.Header>Testimonials</Card.Header>
           <Card.Body>
             <blockquote className="blockquote mb-0">
               <p>
@@ -82,12 +138,12 @@ function Landing() {
                 Someone famous in <cite title="Source Title">Source Title</cite>
               </footer>
             </blockquote>
-          </Card.Body>
+          </Card.Body> */}
         </Card>
 
-        <br />
 
-        <Figure>
+
+        {/* <Figure>
           <Figure.Image
             width={171}
             height={180}
@@ -97,11 +153,11 @@ function Landing() {
           <Figure.Caption style={{color: "red", marginRight: "50px" , backgroundColor: "white"}}> 
             South Florida is on its way to becoming the East Coast Silicon Valley. I want to be a part of it, and Career Space makes it easy!
           </Figure.Caption>
-        </Figure>
+        </Figure> */}
 
-        <br />
 
-        <Card>
+
+        {/* <Card>
           <Card.Img variant="top" src="https://images.unsplash.com/photo-1573164574001-518958d9baa2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80" />
           <Card.Body>
             <Card.Text>
@@ -109,11 +165,11 @@ function Landing() {
               Career Space is the best tool to do that!
             </Card.Text>
           </Card.Body>
-        </Card>
+        </Card> */}
 
-        <br />
 
-        <Card>
+
+        {/* <Card>
           <Card.Header>Quote</Card.Header>
           <Card.Body>
             <blockquote className="blockquote mb-0">
@@ -127,8 +183,8 @@ function Landing() {
               </footer>
             </blockquote>
           </Card.Body>
-        </Card>
-
+        </Card> */}
+        {/* 
         <br />
         <Card>
           <Card.Img variant="top" src="https://www.istockphoto.com/search/2/image?phrase=computer%20palm%20tree&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography&utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcomputer-palm-tree&utm_term=computer%20palm%20tree%3A%3A%3A" />
@@ -139,9 +195,9 @@ function Landing() {
             </Card.Text>
           </Card.Body>
         </Card>
-        <br />
+        <br /> */}
 
-        <Card>
+        {/* <Card>
           <Card.Header>Quote</Card.Header>
           <Card.Body>
             <blockquote className="blockquote mb-0">
@@ -155,14 +211,14 @@ function Landing() {
               </footer>
             </blockquote>
           </Card.Body>
-        </Card>
+        </Card> */}
       </div>
 
-      <ButtonGroup aria-label="Basic example" size="lg" className="mb-2">
-        <Button variant="warning"><i class="fa-brands fa-linkedin"></i></Button>
-        <Button variant="warning"><i class="fa-brands fa-github"></i></Button>
-        <Button variant="warning"><i class="fa-brands fa-facebook"></i></Button>
-        <Button variant="warning"><i class="fa-brands fa-google"></i></Button>
+      <ButtonGroup aria-label="SocialMedia" size="lg" className="mb-2">
+        <Button variant="backGroundColor= #8e793e"><i class="fa-brands fa-linkedin"></i></Button>
+        <Button variant="backGroundColor= #8e793e"><i class="fa-brands fa-github"></i></Button>
+        <Button variant="backGroundColor= #8e793e"><i class="fa-brands fa-facebook"></i></Button>
+        <Button variant="backGroundColor= #8e793e"><i class="fa-brands fa-google"></i></Button>
       </ButtonGroup>
 
     </div>
