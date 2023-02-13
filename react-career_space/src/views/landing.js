@@ -8,7 +8,8 @@ import Figure from 'react-bootstrap/Figure';
 import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-// import "../assets/LorettaMayumiThompsonPhoto.png"
+import ryderLogo from '../assets/ryder-system-inc-logo-vector.png';
+
 
 
 function Landing() {
@@ -73,12 +74,12 @@ function Landing() {
           </Form.Text>
         </Form.Group>
         <Button variant="backGroundColor= #8e793e" type="submit">
-        Start now
-      </Button>
+          Start now
+        </Button>
       </Form>
 
       <div className="cardGroupTestimonial">
-        <Card style={{ width: '18rem'}}>
+        <Card style={{ width: '18rem' }}>
           <Card.Img variant="top" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHN0YXJ0dXAlMjBvZmZpY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=1600&q=60/100px180" />
           <Card.Body>
             <Card.Title><h2>Free to use</h2></Card.Title>
@@ -87,13 +88,13 @@ function Landing() {
             </Card.Text>
           </Card.Body>
         </Card>
-        
+
         <Card style={{ width: '18rem' }}>
           <Card.Img variant="top" src="https://images.unsplash.com/photo-1506606352681-649023fac596?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGFwdG9wJTIwb24lMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1600&q=60/100px180" />
           <Card.Body>
             <Card.Title><h2>Find jobs based in South Florida</h2></Card.Title>
             <Card.Text>
-            Work from home...on the beach. Or on-site, with beautiful views.
+              Work from home...on the beach. Or on-site, with beautiful views.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -103,7 +104,7 @@ function Landing() {
           <Card.Body>
             <Card.Title><h2>Jobs of all tech levels available</h2></Card.Title>
             <Card.Text>
-            From junior and entry level, to c-suite, Career Space has it all.
+              From junior and entry level, to c-suite, Career Space has it all.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -111,7 +112,7 @@ function Landing() {
 
       <ButtonGroup aria-label="Companies" size="lg" className="mb-2">
         {/* <Button variant="light" img src={require("../assets/LorettaMayumiThompsonPhoto.png")} /> */}
-        <Button variant="light">Ryder System Logo </Button>
+        <Button variant="light"><a href='https://ryder.com/careers' target='_blank' ><img className='companyLogos' src={ryderLogo} /> </a>   </Button>
         <Button variant="light">Chewy Logo</Button>
         <Button variant="light">Citadel Logo</Button>
         <Button variant="light">Brightstar Logo</Button>
@@ -137,25 +138,66 @@ function Landing() {
         </Card.Body>
       </Card>
 
-            
-      <Row xs={1} md={2} className="g-4">
-        {Array.from({ length: 4 }).map((_, idx) => (
-          <Col>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
-              <Card.Body>
-                <Card.Title>I love Career Space!</Card.Title>
-                <Card.Text>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            
-          </Col>
-        ))}
-      </Row>
+
+     
+
+      <div>
+        <div style={{display: 'flex'}}>
+          <Card className='testimonyCard'>
+            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Body>
+              <Card.Title>I love</Card.Title>
+              <Card.Text>
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+
+          <Card className='testimonyCard'>
+            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Body>
+              <Card.Title>I haTE</Card.Title>
+              <Card.Text>
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+
+        </div>
+
+
+
+        <div style={{display: 'flex'}}>
+          <Card className='testimonyCard'>
+            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Body>
+              <Card.Title>I SO SO</Card.Title>
+              <Card.Text>
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+
+          <Card className='testimonyCard'>
+            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Body>
+              <Card.Title>I MEH</Card.Title>
+              <Card.Text>
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+
+      </div>
 
 
 
@@ -165,8 +207,8 @@ function Landing() {
 
 
 
-       
-  
+
+
 
 
       <div className='cardGroup'>

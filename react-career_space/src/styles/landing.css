@@ -33,11 +33,19 @@
         rgba(173,151,79,0.5776435574229692) 42%);
 }
 
+.companyLogos{
+    width: 65px;
+    height: 65px;
+}
+
 .cardGroupTestimonial{
     display: flex;
     padding: 20px;
 }
 
+.testimonyCard{
+    margin: 1rem;
+}
 
 .SocialMedia{
     padding: 5px;
