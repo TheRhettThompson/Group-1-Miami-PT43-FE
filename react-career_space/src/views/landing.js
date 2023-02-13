@@ -152,6 +152,7 @@ function Landing() {
                 </Card.Text>
               </Card.Body>
             </Card>
+            
           </Col>
         ))}
       </Row>
