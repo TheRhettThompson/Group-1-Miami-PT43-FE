@@ -8,6 +8,7 @@ import Figure from 'react-bootstrap/Figure';
 import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+// import "../assets/LorettaMayumiThompsonPhoto.png"
 
 
 function Landing() {
@@ -109,7 +110,7 @@ function Landing() {
       </div>
 
       <ButtonGroup aria-label="Companies" size="lg" className="mb-2">
-        <Button variant="light">Neoris Logo</Button>
+        {/* <Button variant="light" img src={require("../assets/LorettaMayumiThompsonPhoto.png")} /> */}
         <Button variant="light">Ryder System Logo </Button>
         <Button variant="light">Chewy Logo</Button>
         <Button variant="light">Citadel Logo</Button>
@@ -118,7 +119,6 @@ function Landing() {
         <Button variant="light">ClearSale Logo</Button>
         <Button variant="light">goTRG Logo</Button>
         <Button variant="light">Mi9 Retail Logo</Button>
-        <Button variant="light">Alienware Logo</Button>
         <Button variant="light">OpenEnglish Logo</Button>
       </ButtonGroup>
 
