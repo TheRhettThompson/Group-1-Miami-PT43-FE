@@ -10,6 +10,7 @@ import Landing from './views/landing';
 import Login from './views/login';
 import Signup from './views/signup';
 import ContactUs from './views/ContactUs.js';
+import TermsOfServicePrivacy from './views/termsOfServicePrivacy';
  
 
 
@@ -30,6 +31,7 @@ function App() {
           <Route exact path="/landing" element={<Landing />} />
           <Route exact path="/jobs" element={<Jobs />} />
           <Route exact path="/contactus" element={<ContactUs />} />
+          <Route exact path="/termsofserviceprivacy" element={<TermsOfServicePrivacy />} />
         </Routes>
         <Footer />
       </BrowserRouter>

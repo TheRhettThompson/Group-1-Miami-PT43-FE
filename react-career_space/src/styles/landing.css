@@ -70,3 +70,21 @@ Figure.Caption{
 Form.Control{
   padding: 20px;
 }
+
+@media(max-width: 600px) {
+    /* paste all classes here, for things like images, email input, etc for mobile devices */
+    /* .myimage1{
+        width: 600px;
+        height: 200px;
+        filter: brightness(80%);
+        object-fit: cover; */
+    /* }
+     */
+
+
+
+
+
+
+
+}

@@ -70,7 +70,9 @@ function Landing() {
           <Form.Label>Find your next tech job in South Florida now.</Form.Label>
           <Form.Control type="email" placeholder="Enter your email address" />
           <Form.Text className="text-muted">
-            We'll never share your email with anyone else.
+            We'll never share your email with anyone else. By siGning up for Career Space,
+            you agree to Career Space's Terms of Service & Privacy Policy,
+            each one has a hyperlink to those pages
           </Form.Text>
         </Form.Group>
         <Button variant="backGroundColor= #8e793e" type="submit">
