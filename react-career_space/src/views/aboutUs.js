@@ -6,6 +6,7 @@ import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Figure from 'react-bootstrap/Figure';
 import LMT from '../assets/lorettaMayumiThompsonPhoto.jpg';
+import KM from '../assets/kriss_Morejon_and_wife.jpg';
 
 
 function AboutUs() {
@@ -61,7 +62,7 @@ function AboutUs() {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img variant="top" src={KM}/>
           <Card.Body>
             <Card.Title>Kriss Morejon</Card.Title>
             <Card.Text>
