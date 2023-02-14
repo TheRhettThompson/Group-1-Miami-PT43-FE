@@ -1,18 +1,17 @@
 import React, { useState } from 'react';
 import "../styles/ContactUs.css"
 
-  
+
 function ContactUs() {
   return (
     <div>
-    
-    <h1>Looking for work?</h1>
-      <Button variant="warning" onClick={handleShow}>
-        Find your next tech job now
-      </Button>
+
+      <h1>this is the Contact Page</h1>
+
+
     </div>
-     
+
   )
 }
-  
+
 export default ContactUs
