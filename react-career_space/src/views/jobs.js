@@ -2,6 +2,9 @@ import React, { useContext, useEffect, useState } from "react";
 import { Context } from "../store/appContext";
 import { Link } from "react-router-dom"
 
+import Card from 'react-bootstrap/Card';
+import '../styles/jobs.css';
+
 
 function Jobs() {
     const [jobs, setJobs] = useState([]);
@@ -43,9 +46,20 @@ const listOfJobs = jobs.map((job, index) => {
     return (
       <Link to = {job.link}>
         <div key={index}>
-        {/* {Object.values(job).map((company, index) => {return (<h1 key={index}>{company.name}</h1>)})} */}
-        <h1>{job.job_title_text}</h1>
-        <h2>{job.location_name}</h2>
+
+
+        <Card border="info" style={{ width: '18rem' }}>
+        <Card.Header>{job.job_title_text}</Card.Header>
+        <Card.Body>
+          <Card.Title>{job.job_title_text}</Card.Title>
+          <Card.Text>
+          {job.location_name}
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      <br />
+
+
     </div>
     </Link>
 )})
@@ -53,8 +67,10 @@ const listOfJobs = jobs.map((job, index) => {
 if(loading) return <p>Loading...</p>
     return (
         <div>
-            <h1>My Jobs</h1>
+            <h1>Found Jobs</h1>
+            <div className="list_of_jobs">
             {listOfJobs}
+            </div>
         </div>
     )
 }
