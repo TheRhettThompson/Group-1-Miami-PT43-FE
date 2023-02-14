@@ -54,6 +54,21 @@ const getState = ({ getStore, getActions, setStore }) => {
         const data = await response.json();
         return data.hits;
       },
+
+      
+			//FUNCTION TO ADD HEART CLICKS TO FAVORITES LIST
+			addToFavorites: (name) => {
+				const newFav = { name: name}
+				setStore({favorites: getStore().favorites.concat(newFav)})
+			},
+
+			//DELETE ITEM FROM FAVORITES
+			deleteFromFavorites: (name) => {
+				const delFav = getStore().favorites.filter((fav) => fav.name !== name)
+				setStore({favorites: delFav})
+			}
+
+
     },
   };
 };

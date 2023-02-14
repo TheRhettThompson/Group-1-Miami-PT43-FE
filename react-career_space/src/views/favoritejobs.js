@@ -3,7 +3,7 @@ import { Context } from "../store/appContext";
 
 // substitute favoriteJobs from Favorites Star Wars API project 
 
-const favoriteJobs = () => {
+const FavoriteJobs = () => {
 
 
 const {store, actions} = useContext(Context)
@@ -26,5 +26,5 @@ const favList = store.favoriteJobs.map((fav) => {
     )
 }
 
-export default favoriteJobs
+export default FavoriteJobs
 

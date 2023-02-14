@@ -4,16 +4,11 @@ import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
-import Figure from 'react-bootstrap/Figure';
 import Form from 'react-bootstrap/Form';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
 import ryderLogo from '../assets/ryder-system-inc-logo-vector.png';
 import chewyLogo from '../assets/chewy_logo.png';
 import citadelLogo from '../assets/citadel_securities.png';
 import neorisLogo from '../assets/neoris_logo.png';
-
-
 
 function Landing() {
   return (
@@ -82,7 +77,7 @@ function Landing() {
       </Form>
 
       <div className="cardGroupTestimonial">
-        <Card style={{ width: '18rem' }}>
+        <Card border="info" style={{ width: '18rem' }}>
           <Card.Img variant="top" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHN0YXJ0dXAlMjBvZmZpY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=1600&q=60/100px180" />
           <Card.Body>
             <Card.Title><h2>Free to use</h2></Card.Title>
@@ -92,7 +87,7 @@ function Landing() {
           </Card.Body>
         </Card>
 
-        <Card style={{ width: '18rem' }}>
+        <Card border="info" style={{ width: '18rem' }}>
           <Card.Img variant="top" src="https://images.unsplash.com/photo-1506606352681-649023fac596?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGFwdG9wJTIwb24lMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1600&q=60/100px180" />
           <Card.Body>
             <Card.Title><h2>Find jobs based in South Florida</h2></Card.Title>
@@ -102,7 +97,7 @@ function Landing() {
           </Card.Body>
         </Card>
 
-        <Card style={{ width: '18rem' }}>
+        <Card border="info" style={{ width: '18rem' }}>
           <Card.Img variant="top" src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHN0YXJ0dXB8ZW58MHx8MHx8&auto=format&fit=crop&w=1600&q=60/100px180" />
           <Card.Body>
             <Card.Title><h2>Jobs of all tech levels available</h2></Card.Title>
@@ -135,7 +130,7 @@ function Landing() {
         <Button variant="light">Another Logo</Button>
       </ButtonGroup>
 
-      <Card>
+      <Card border="info">
         <Card.Header>Live your best life</Card.Header>
         <Card.Body>
           <blockquote className="blockquote mb-0">
@@ -152,7 +147,7 @@ function Landing() {
 
       <div>
         <div style={{display: 'flex'}}>
-          <Card className='testimonyCard'>
+          <Card className='testimonyCard' border="info">
             <Card.Img variant="top" src="https://images.unsplash.com/photo-1573164574001-518958d9baa2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGJsYWNrJTIwd29tYW4lMjB3b3JraW5nJTIwb24lMjBsYXB0b3B8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60/100px160" />
             <Card.Body>
               <Card.Title>Be a pioneer</Card.Title>
@@ -163,7 +158,7 @@ function Landing() {
             </Card.Body>
           </Card>
 
-          <Card className='testimonyCard'>
+          <Card className='testimonyCard' border="info">
             <Card.Img variant="top" src="https://images.unsplash.com/photo-1635768229592-8c2532d33cb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjQ1fHx3b3JraW5nJTIwb24lMjBjb21wdXRlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60/100px160" />
             <Card.Body>
               <Card.Title>Right in my backyard</Card.Title>
@@ -176,10 +171,10 @@ function Landing() {
         </div>
 
         <div style={{display: 'flex'}}>
-          <Card className='testimonyCard'>
+          <Card className='testimonyCard' border="info">
             <Card.Img variant="top" src="https://images.unsplash.com/photo-1613324996029-f6190a17838f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzkwfHx3b3JraW5nJTIwb24lMjBjb21wdXRlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60/100px160" />
             <Card.Body>
-              <Card.Title>I SO SO</Card.Title>
+              <Card.Title>SOME BLURB HERE</Card.Title>
               <Card.Text>
                 This is a longer card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
@@ -188,7 +183,7 @@ function Landing() {
             </Card.Body>
           </Card>
           
-          <Card className='testimonyCard'>
+          <Card className='testimonyCard' border="info">
             <Card.Img variant="top" src="https://images.unsplash.com/photo-1590650153855-d9e808231d41?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fHdvcmtpbmclMjBvbiUyMGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60/100px160" />
             <Card.Body>
               <Card.Title>The best jobs for the best talent</Card.Title>
