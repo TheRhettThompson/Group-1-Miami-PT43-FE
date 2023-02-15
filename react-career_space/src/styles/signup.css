@@ -1,0 +1,6 @@
+.list_of_jobs {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}

@@ -56,6 +56,7 @@ export const signup = () => {
             placeholder="Enter your First name"
             onChange={handleChange("firstname")}
           />
+          <br></br>
           <label>Last Name</label>
           <input
             type="text"
@@ -63,6 +64,7 @@ export const signup = () => {
             placeholder="Enter your Last Name"
             onChange={handleChange("lastname")}
           />
+          <br></br>
           <label>Email</label>
           <input
             type="email"
@@ -70,6 +72,7 @@ export const signup = () => {
             placeholder="Enter your email"
             onChange={handleChange("email")}
           />
+          <br></br>
           <label>Password</label>
           <input
             type="password"

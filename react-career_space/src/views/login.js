@@ -3,6 +3,8 @@ import { Context } from "../store/appContext";
 import "../styles/signup.css";
 import axios from "axios";
 
+import '../styles/login.css';
+
 export const Login = () => {
   const [values, setValues] = useState({
     email: "",
@@ -70,6 +72,7 @@ export const Login = () => {
             placeholder="Enter your email"
             onChange={handleChange("email")}
           />
+          <br></br>
           <label>Password</label>
           <input
             type="password"
