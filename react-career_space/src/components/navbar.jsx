@@ -3,8 +3,11 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import React from "react";
 import "../styles/navbar.css";
+import { useContext } from "react";  
 
 function NavbarComponent() {
+  
+
   return (
     <Navbar bg="light" expand="lg" className="navbar">
       <Container>

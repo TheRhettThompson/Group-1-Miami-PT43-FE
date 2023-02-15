@@ -49,14 +49,18 @@ const listOfJobs = jobs.map((job, index) => {
 
 
         <Card border="info" style={{ width: '18rem' }}>
-        <Card.Header>{job.job_title_text}</Card.Header>
-        <Card.Body>
-          <Card.Title>{job.job_title_text}</Card.Title>
-          <Card.Text>
-          {job.location_name}
-          </Card.Text>
-        </Card.Body>
-      </Card>
+          <Card.Header>{job.job_title_text}</Card.Header>
+          <Card.Body>
+            <Card.Title>{job.job_title_text}</Card.Title>
+            <Card.Text>
+              {job.location_name}
+            </Card.Text>
+          </Card.Body>
+            {/* <button ....THIS IS FOR FAVORITE JOBS 
+              onClick={() => actions.addToFavorites(jobs.name)}
+              className='fas fa-heart btn fav-btn'>
+            </button>   */}
+        </Card>
       <br />
 
 

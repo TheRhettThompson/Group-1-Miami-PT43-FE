@@ -2,9 +2,9 @@ const getState = ({ getStore, getActions, setStore }) => {
   return {
     store: {
       jobs: [],
-      favoriteJobs: [],
+      favorites: [],
       api: `https://3001-therhetttho-group1miami-8zuciurcbbs.ws-us86.gitpod.io`,
-      //locations: [],
+       
     },
 
     actions: {
@@ -69,7 +69,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 			}
 
 
-    },
+    }
   };
 };
 
