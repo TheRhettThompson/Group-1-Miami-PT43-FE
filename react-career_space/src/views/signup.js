@@ -81,6 +81,7 @@ export const signup = () => {
             onChange={handleChange("password")}
           />
         </div>
+        <br></br>
         <button className="btn btn-primary">Submit</button>
       </form>
     </div>
