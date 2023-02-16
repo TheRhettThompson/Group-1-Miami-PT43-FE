@@ -19,7 +19,7 @@ function ContactUs() {
       <Card.ImgOverlay>
         <Card.Title><h1>We want to hear from you</h1></Card.Title>
         <Card.Text>
-          Contact us with questions or inquiries. This is a wider card with supporting text below as a natural lead-in
+          Contact SouthFLDevJobs with questions or inquiries. This is a wider card with supporting text below as a natural lead-in
           to additional content. This content is a little bit longer.
         </Card.Text>
         <Card.Text>Last updated 3 mins ago</Card.Text>
@@ -85,7 +85,7 @@ function ContactUs() {
           <Form.Check type="checkbox" label="Check me out" />
         </Form.Group>
 
-        <Button variant="primary" type="submit">
+        <Button variant="info" type="submit">
           Submit
         </Button>
       </Form>

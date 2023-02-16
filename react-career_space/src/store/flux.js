@@ -56,11 +56,11 @@ const getState = ({ getStore, getActions, setStore }) => {
       },
 
       
-			//FUNCTION TO ADD HEART CLICKS TO FAVORITES LIST
-			addToFavorites: (name) => {
-				const newFav = { name: name}
-				setStore({favorites: getStore().favorites.concat(newFav)})
-			},
+			// //FUNCTION TO ADD HEART CLICKS TO FAVORITES LIST
+			// addToFavorites: (name) => {
+			// 	const newFav = { name: name}
+			// 	setStore({favorites: getStore().favorites.concat(newFav)})
+			// },
 
 			//DELETE ITEM FROM FAVORITES
 			deleteFromFavorites: (name) => {

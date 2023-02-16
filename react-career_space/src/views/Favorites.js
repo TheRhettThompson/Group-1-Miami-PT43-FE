@@ -1,28 +1,47 @@
-import React, { useContext } from "react";
-import { Context } from "../store/appContext";
+// import React, { useContext } from "react";
+// import { Context } from "../store/appContext";
+// import { Link } from "react-router-dom"
+// import '../styles/Favorites.css';
+// import Button from 'react-bootstrap/Button';
+// import Card from 'react-bootstrap/Card';
+// import Jobs from 
 
 
 
-const Favorites = () => {
+// const Favorites = () => {
+//     const { store, actions } = useContext(Context)
+//     const favList = store.favorites.map((fav) => {
 
-const {store, actions} = useContext(Context)
+//         return (
+//             <Link to={fav.job}>
+//                 <div key={fav.name}>
 
-const favList = store.favorites.map((fav) => {
-    return (
-        <li key={fav.name}> 
-            {fav.name}
-        </li>
-    )
-})
 
-    return(
-        <div>
-            <ul>
-                {favList}
-            </ul>
-        </div>
-    )
-}
 
-export default Favorites
+//                     <Card border="info" style={{ width: '18rem' }}>
+//                         <Card.Header>{job.company.name}</Card.Header>
+//                         <Card.Body>
+//                             <Card.Title>{job.job_title_text}</Card.Title>
+//                             <Card.Text>
+//                                 {job.location_name}
+//                             </Card.Text>
+//                             <Button variant="info">Delete Job</Button>
 
+//                         </Card.Body>
+//                     </Card>
+//                     <br />
+
+//                 </div>
+//             </Link>
+
+
+//         )
+
+
+
+//     })
+// }
+
+
+
+// export default Favorites;

@@ -54,7 +54,7 @@ function Landing() {
       </Carousel>
 
       <div >
-        <h1>Career Space</h1>
+        <h1>SouthFLDevJobs.com</h1>
         <p>The easiest way to search for tech industry jobs in South Florida</p>
 
         {/* <h1>By siGning up for Career Space, you agree to Career Space's Terms of Service & Privacy Policy,
@@ -66,8 +66,8 @@ function Landing() {
           <Form.Label>Find your next tech job in South Florida now.</Form.Label>
           <Form.Control type="email" placeholder="Enter your email address" />
           <Form.Text className="text-muted">
-            We'll never share your email with anyone else. By siGning up for Career Space,
-            you agree to Career Space's Terms of Service & Privacy Policy,
+            We'll never share your email with anyone else. By siGning up for SouthFLDevJobs.com,
+            you agree to SouthFLDevJobs.com's Terms of Service & Privacy Policy,
             each one has a hyperlink to those pages
           </Form.Text>
         </Form.Group>
@@ -102,7 +102,7 @@ function Landing() {
           <Card.Body>
             <Card.Title><h2>Jobs of all tech levels available</h2></Card.Title>
             <Card.Text>
-              From junior and entry level, to c-suite, Career Space has it all.
+              From junior and entry level, to c-suite, SouthFLDevJobs has it all.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -136,7 +136,7 @@ function Landing() {
           <blockquote className="blockquote mb-0">
             <p>
               {' '}
-              If you would have told me that I would be able to find a web dev job for an innovative startup that could easily fit in Silicon Valley, but I get to code on the beach, I would have never believed it. Until I found Career Space, of course!{' '}
+              If you would have told me that I would be able to find a web dev job for an innovative startup that could easily fit in Silicon Valley, but I get to code on the beach, I would have never believed it. Until I found SouthFLDevJobs, of course!{' '}
             </p>
             <footer className="blockquote-footer">
               Jackie Smith <cite title="Source Title">web developer, PalmFrond.com</cite>
@@ -153,7 +153,7 @@ function Landing() {
               <Card.Title>Be a pioneer</Card.Title>
               <Card.Text>
               South Florida is on its way to becoming the East Coast Silicon Valley. 
-              I want to be a part of it, and Career Space makes it easy!
+              I want to be a part of it, and SouthFLDevJobs makes it easy!
               </Card.Text>
             </Card.Body>
           </Card>
@@ -164,7 +164,7 @@ function Landing() {
               <Card.Title>Right in my backyard</Card.Title>
               <Card.Text>
                 I thought I'd have to leave Miami to get a job in coding.
-                But not anymore, with Career Space I know the opportunities are right here!
+                But not anymore, with SouthFLDevJobs I know the opportunities are right here!
               </Card.Text>
             </Card.Body>
           </Card>
@@ -189,7 +189,7 @@ function Landing() {
               <Card.Title>The best jobs for the best talent</Card.Title>
               <Card.Text>
               South Florida is by far one of the best places for tech professionals 
-              to develop careers. Career Space is the best tool to do that!
+              to develop careers. SouthFLDevJobs is the best tool to do that!
               </Card.Text>
             </Card.Body>
           </Card>

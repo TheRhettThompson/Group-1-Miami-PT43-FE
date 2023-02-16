@@ -22,7 +22,7 @@ function AboutUs() {
           src="https://images.unsplash.com/photo-1531498860502-7c67cf02f657?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=1600&q=60/171x180"
         />
         <Figure.Caption>
-          <h1>This is going to be the mission statement of CareerSpace.</h1>
+          <h1>This is going to be the mission statement of SouthFLDevJobs.</h1>
           <p>Something along the lines of...It all started because we were going through
             bootcamp, and looking for good jobs in the area that we wouldn't have to
             physically relocate to. It was very confusing to search through multiple
@@ -52,8 +52,16 @@ function AboutUs() {
           <Card.Footer>
             <small className="text-muted">
               <ButtonGroup aria-label="SocialMedia" size="lg" className="mb-2">
+                <Button variant="backGroundColor= #8e793e"><i class="fa-brands fa-twitter"></i></Button>
                 <Button variant="backGroundColor= #8e793e"><i class="fa-brands fa-linkedin"></i></Button>
-                <Button variant="backGroundColor= #8e793e"><i class="fa-brands fa-github"></i></Button>
+                
+
+                <Button variant="backGroundColor= #8e793e">
+                    <a href='https://github.com/betolix' target='_blank'>
+                      <i class="fa-brands fa-github"/></a>
+                </Button>
+
+
                 <Button variant="backGroundColor= #8e793e"><i class="fa-brands fa-facebook"></i></Button>
                 <Button variant="backGroundColor= #8e793e"><i class="fa-brands fa-google"></i></Button>
               </ButtonGroup>
@@ -74,10 +82,21 @@ function AboutUs() {
           <Card.Footer>
             <small className="text-muted">
               <ButtonGroup aria-label="SocialMedia" size="lg" className="mb-2">
-                <Button variant="backGroundColor= #8e793e"><i class="fa-brands fa-linkedin"></i></Button>
-                <Button variant="backGroundColor= #8e793e"><i class="fa-brands fa-github"></i></Button>
-                <Button variant="backGroundColor= #8e793e"><i class="fa-brands fa-facebook"></i></Button>
-                <Button variant="backGroundColor= #8e793e"><i class="fa-brands fa-google"></i></Button>
+                <Button variant="backGroundColor= #8e793e">
+                  <a href='https://www.linkedin.com/in/christopher-morejon-067ab7254/' target='_blank'>
+                  <i class="fa-brands fa-linkedin"/></a>
+                </Button>
+
+                <Button variant="backGroundColor= #8e793e">
+                    <a href='https://github.com/Kriss1205' target='_blank'>
+                      <i class="fa-brands fa-github"/></a>
+                </Button>
+              
+                {/* <Button variant="backGroundColor= #8e793e">
+                  <a href='mailto:ChristopherMorejon17@gmail.com?body=My custom mail body' target='_blank'>
+                  <i class="fa-brands fa-google"/></a>
+                </Button> */}
+                       
               </ButtonGroup>
             </small>
           </Card.Footer>
@@ -98,10 +117,19 @@ function AboutUs() {
           <Card.Footer>
             <small className="text-muted">
               <ButtonGroup aria-label="SocialMedia" size="lg" className="mb-2">
-                <Button variant="backGroundColor= #8e793e"><i class="fa-brands fa-linkedin"></i></Button>
-                <Button variant="backGroundColor= #8e793e"><i class="fa-brands fa-github"></i></Button>
-                <Button variant="backGroundColor= #8e793e"><i class="fa-brands fa-facebook"></i></Button>
+                
+                <Button variant="backGroundColor= #8e793e">
+                    <a href='https://www.linkedin.com/in/loretta-mayumi-thompson-293773256/' target='_blank'>
+                      <i class="fa-brands fa-linkedin"/></a>
+                </Button>
+
+                <Button variant="backGroundColor= #8e793e">
+                    <a href='https://github.com/TheRhettThompson' target='_blank'>
+                      <i class="fa-brands fa-github"/></a>
+                </Button>
+                
                 <Button variant="backGroundColor= #8e793e"><i class="fa-brands fa-google"></i></Button>
+
               </ButtonGroup>
             </small>
           </Card.Footer>
