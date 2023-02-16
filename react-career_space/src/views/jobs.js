@@ -42,14 +42,14 @@ function Jobs() {
 
 console.log("jobs state", jobs)
     
-const listOfJobs = jobs.map((job, index) => {
+const listOfJobs = jobs.map((job, index, company ) => {
     return (
       <Link to = {job.link}>
         <div key={index}>
 
 
         <Card border="info" style={{ width: '18rem' }}>
-          <Card.Header>{job.job_title_text}</Card.Header>
+          <Card.Header>{job.company.name}</Card.Header>
           <Card.Body>
             <Card.Title>{job.job_title_text}</Card.Title>
             <Card.Text>
