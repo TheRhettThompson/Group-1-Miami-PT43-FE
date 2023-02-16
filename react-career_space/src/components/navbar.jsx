@@ -12,7 +12,7 @@ function NavbarComponent() {
     <Navbar bg="light" expand="lg" className="navbar">
       <Container>
         <Navbar.Brand style={{ color: "#ad974f" }} href="/" className="logo">
-          <i>CareerSpace</i>
+          <i>SouthFl Dev Jobs</i>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -31,7 +31,7 @@ function NavbarComponent() {
                   Sign Up
                 </Nav.Link>
                 <Nav.Link style={{ color: "#231f20" }} href="login">
-                  Log In
+                 <button className="btn btn-primary">Log In</button>
                 </Nav.Link>
               </div>
             </div>

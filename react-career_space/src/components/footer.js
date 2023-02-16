@@ -4,10 +4,7 @@ import "../styles/footer.css";
 function Footer() {
   return (
     <div className="Footer">
-      <h1>Creators</h1>
-      <p1>Christopher Morejon</p1>
-      <p2>Loretta Mayumi Thompson</p2>
-      <p3>Alberto Lazo</p3>
+      <p>Copyright © 2023</p>
     </div>
   );
 }
