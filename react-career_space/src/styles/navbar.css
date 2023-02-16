@@ -1,16 +1,34 @@
+.login {
+  border: solid 2px red;
+  border-radius: 30px;
+}
 
+Container {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/* FIRST NAVBAR */
 /* REMOVE BORDER WHEN DONE WITH THIS SECTION!!!!!!!!! */
 
-.navbar {
+/* .navbar {
   border-style:double;
   border-color: red;
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
 
 }
 
 .logo {
-  
   margin-right: 75%;
   border: 1px double #ad974f !important;
   border-radius: 10px;
@@ -19,7 +37,6 @@
 }
 
 .links {
-  
   align-items: space-between;
   width: 100%;
 }
@@ -34,4 +51,4 @@
 	display: flex;
   margin-left: 900px;
   align-items: center;
-}
+} */
