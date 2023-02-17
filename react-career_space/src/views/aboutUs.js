@@ -52,17 +52,28 @@ function AboutUs() {
           <Card.Footer>
             <small className="text-muted">
               <ButtonGroup aria-label="SocialMedia" size="lg" className="mb-2">
-                <Button variant="backGroundColor= #8e793e"><i class="fa-brands fa-twitter"></i></Button>
-                <Button variant="backGroundColor= #8e793e"><i class="fa-brands fa-linkedin"></i></Button>
-                
 
+                <Button variant="backGroundColor= #8e793e">
+                    <a href='https://twitter.com/betolix' target='_blank'>
+                      <i class="fa-brands fa-twitter"/></a>
+                </Button>
+                
+                <Button variant="backGroundColor= #8e793e">
+                    <a href='https://linkedin.com/in/alberto-lazo' target='_blank'>
+                      <i class="fa-brands fa-linkedin"/></a>
+                </Button>
+                
                 <Button variant="backGroundColor= #8e793e">
                     <a href='https://github.com/betolix' target='_blank'>
                       <i class="fa-brands fa-github"/></a>
                 </Button>
 
+                <Button variant="backGroundColor= #8e793e">
+                    <a href='https://facebook.com/Vodevil82' target='_blank'>
+                      <i class="fa-brands fa-facebook"/></a>
+                </Button>
 
-                <Button variant="backGroundColor= #8e793e"><i class="fa-brands fa-facebook"></i></Button>
+
                 <Button variant="backGroundColor= #8e793e"><i class="fa-brands fa-google"></i></Button>
               </ButtonGroup>
 

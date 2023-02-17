@@ -4,7 +4,7 @@ const getState = ({ getStore, getActions, setStore }) => {
       jobs: [],
       favorites: [],
       api: `https://3001-therhetttho-group1miami-8zuciurcbbs.ws-us86.gitpod.io`,
-       
+
     },
 
     actions: {
@@ -55,18 +55,35 @@ const getState = ({ getStore, getActions, setStore }) => {
         return data.hits;
       },
 
-      
-			// //FUNCTION TO ADD HEART CLICKS TO FAVORITES LIST
-			// addToFavorites: (name) => {
-			// 	const newFav = { name: name}
-			// 	setStore({favorites: getStore().favorites.concat(newFav)})
-			// },
 
-			//DELETE ITEM FROM FAVORITES
-			deleteFromFavorites: (name) => {
-				const delFav = getStore().favorites.filter((fav) => fav.name !== name)
-				setStore({favorites: delFav})
-			}
+      // //FUNCTION TO ADD HEART CLICKS TO FAVORITES LIST
+      add_Favorites: (data) => {
+        let token = sessionStorage.getItem("token");
+        console.log(token);
+        fetch(`https://3001-therhetttho-group1miami-hcz6m9iv8j3.ws-us87.gitpod.io/api/favorites`, {
+          method: "POST",
+          headers: {
+            "Content-type": "application/json",
+            Authorization: `Bearer ${token}`,
+          },
+          body: JSON.stringify(data),
+        })
+          .then((resp) => resp.json())
+          .then((data) => {
+            setStore({
+              favorites: data,
+            });
+          }); // const store = getStore();
+        // store.favorites.push(data);
+        // setStore(store);
+      },
+
+
+      //DELETE ITEM FROM FAVORITES
+      deleteFromFavorites: (name) => {
+        const delFav = getStore().favorites.filter((fav) => fav.name !== name)
+        setStore({ favorites: delFav })
+      }
 
 
     }
