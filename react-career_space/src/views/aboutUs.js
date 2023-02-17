@@ -8,6 +8,7 @@ import Figure from 'react-bootstrap/Figure';
 import LMT from '../assets/lorettaMayumiThompsonPhoto.jpg';
 import KM from '../assets/kriss_Morejon_and_wife.jpg';
 import AL from '../assets/albert_Lazo.jpg';
+import Geeks from '../assets/geeks_logo.png';
 
 
 function AboutUs() {
@@ -16,12 +17,10 @@ function AboutUs() {
       <h1>About Us</h1>
 
       <div className="MissionStatementFigure">
-        <Figure.Image
-          width={171}
-          height={180}
-          alt="271x280"
+        <Figure.Image     
           src="https://images.unsplash.com/photo-1531498860502-7c67cf02f657?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=1600&q=60/171x180"
         />
+         
         <Figure.Caption>
           <h1>This is going to be the mission statement of SouthFLDevJobs.</h1>
           <p>Something along the lines of...It all started because we were going through
@@ -160,20 +159,14 @@ function AboutUs() {
         <Card.Img variant="bottom" src="https://images.unsplash.com/photo-1518893494013-481c1d8ed3fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fFdoZXJlJTIwYXJlJTIwdGhlJTIwam9ic3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1600&q=60/100px180" />
       </Card>
 
+      <br/>
+
       <Figure>
-        <Figure.Image
-          width={171}
-          height={180}
-          alt="171x180"
-          src="holder.js/171x180"
-        />
+        <Figure.Image variant="top" src={Geeks} />
         <Figure.Caption>
-          Nulla vitae elit libero, a pharetra augue mollis interdum.
+          Thank you, 4Geeks Academy! more text here 
         </Figure.Caption>
       </Figure>
-
-
-
 
     </div>
 

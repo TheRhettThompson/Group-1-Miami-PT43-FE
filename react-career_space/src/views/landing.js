@@ -9,6 +9,7 @@ import ryderLogo from '../assets/ryder-system-inc-logo-vector.png';
 import chewyLogo from '../assets/chewy_logo.png';
 import citadelLogo from '../assets/citadel_securities.png';
 import neorisLogo from '../assets/neoris_logo.png';
+import cloudLogo from '../assets/cloud_logo.jpg';
 
 function Landing() {
   return (
@@ -110,22 +111,26 @@ function Landing() {
 
       <ButtonGroup aria-label="Companies" size="lg" className="mb-2">
         <Button variant="light"><a href='https://ryder.com/careers' target='_blank' >
-          <img className='companyLogos' src={ryderLogo} /> </a>   
+          <img className='companyLogos' src={ryderLogo} /> </a>
         </Button>
 
-        <Button variant="light"><a href='https://careers.chewy.com/us/en/technology-and-product-careers' target='_blank'>
-          <img className='companyLogos' src={chewyLogo}/> </a> 
+        <Button variant="light"><a href='https://careers.chewy.com/us/en/technology-and-product-careers/' target='_blank'>
+          <img className='companyLogos' src={chewyLogo} /> </a>
         </Button>
 
         <Button variant="light"><a href='https://www.citadelsecurities.com/careers/open-opportunities/' target='_blank'>
-          <img className='companyLogos' src={citadelLogo}/></a>
+          <img className='companyLogos' src={citadelLogo} /></a>
         </Button>
 
         <Button variant="light"><a href='https://careers.neoris.com/' target='_blank'>
-          <img className='companyLogos' src={neorisLogo}/></a>
+          <img className='companyLogos' src={neorisLogo} /></a>
         </Button>
 
-        <Button variant="light">Some Logo</Button>
+        <Button variant="light"><a href='https://careers.cloud.com/CloudCareers/' target='_blank'>
+          <img className='companyLogos' src={cloudLogo} /></a>
+        </Button>
+
+
         <Button variant="light">Another Logo</Button>
         <Button variant="light">Another Logo</Button>
       </ButtonGroup>
@@ -146,14 +151,14 @@ function Landing() {
       </Card>
 
       <div>
-        <div style={{display: 'flex'}}>
+        <div style={{ display: 'flex' }}>
           <Card className='testimonyCard' border="info">
             <Card.Img variant="top" src="https://images.unsplash.com/photo-1573164574001-518958d9baa2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGJsYWNrJTIwd29tYW4lMjB3b3JraW5nJTIwb24lMjBsYXB0b3B8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60/100px160" />
             <Card.Body>
               <Card.Title>Be a pioneer</Card.Title>
               <Card.Text>
-              South Florida is on its way to becoming the East Coast Silicon Valley. 
-              I want to be a part of it, and SouthFLDevJobs makes it easy!
+                South Florida is on its way to becoming the East Coast Silicon Valley.
+                I want to be a part of it, and SouthFLDevJobs makes it easy!
               </Card.Text>
             </Card.Body>
           </Card>
@@ -170,7 +175,7 @@ function Landing() {
           </Card>
         </div>
 
-        <div style={{display: 'flex'}}>
+        <div style={{ display: 'flex' }}>
           <Card className='testimonyCard' border="info">
             <Card.Img variant="top" src="https://images.unsplash.com/photo-1613324996029-f6190a17838f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzkwfHx3b3JraW5nJTIwb24lMjBjb21wdXRlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60/100px160" />
             <Card.Body>
@@ -182,20 +187,20 @@ function Landing() {
               </Card.Text>
             </Card.Body>
           </Card>
-          
+
           <Card className='testimonyCard' border="info">
             <Card.Img variant="top" src="https://images.unsplash.com/photo-1590650153855-d9e808231d41?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fHdvcmtpbmclMjBvbiUyMGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60/100px160" />
             <Card.Body>
               <Card.Title>The best jobs for the best talent</Card.Title>
               <Card.Text>
-              South Florida is by far one of the best places for tech professionals 
-              to develop careers. SouthFLDevJobs is the best tool to do that!
+                South Florida is by far one of the best places for tech professionals
+                to develop careers. SouthFLDevJobs is the best tool to do that!
               </Card.Text>
             </Card.Body>
           </Card>
         </div>
       </div>
-      
+
       <ButtonGroup aria-label="SocialMedia" size="lg" className="mb-2">
         <Button variant="backGroundColor= #8e793e"><i class="fa-brands fa-linkedin"></i></Button>
         <Button variant="backGroundColor= #8e793e"><i class="fa-brands fa-github"></i></Button>
