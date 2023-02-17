@@ -8,6 +8,7 @@ import '../styles/jobs.css';
 
 const Jobs = () => {
   // const { store, actions } = useContext(Context);
+  // console.log(store)
   const [jobs, setJobs] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -46,15 +47,15 @@ const Jobs = () => {
 
 
   console.log("jobs state", jobs)
-
-  const listOfJobs = jobs.map((job, index, company) => {
+  // DELETED company FROM LINE 51; map can only have 2 items and the 2nd item is always index)
+  const listOfJobs = jobs.map((job, index) => {
     return (
       <Link to={job.link}>
         <div key={index}>
 
 
           <Card border="info" style={{ width: '18rem' }}>
-            <Card.Header>{company.name}</Card.Header>
+            <Card.Header>{job.company.name}</Card.Header>
             <Card.Body>
               <Card.Title>{job.job_title_text}</Card.Title>
               <Card.Text>

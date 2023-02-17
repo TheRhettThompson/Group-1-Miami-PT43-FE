@@ -13,8 +13,9 @@ import Logo from "../assets/SouthFLDevJobs_logo.jpg"
 
 function NavbarComponent() {
   
-  return (
-    <Navbar NavbarComponent expand="lg" bg="light" variant="light">
+  return ( 
+    // DELETED navbarcomponent FROM LINE 18 
+    <Navbar  expand="lg" bg="light" variant="light">
       <Container>
         <Navbar.Brand href="home"> <img src = { Logo } className="w-50" /> </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
