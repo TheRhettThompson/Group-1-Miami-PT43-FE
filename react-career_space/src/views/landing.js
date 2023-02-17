@@ -77,7 +77,7 @@ function Landing() {
       </Form>
 
       <div className="cardGroupTestimonial">
-        <Card border="info" style={{ width: '18rem' }}>
+        <Card border="info" style={{ width: '18rem' }} >
           <Card.Img variant="top" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHN0YXJ0dXAlMjBvZmZpY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=1600&q=60/100px180" />
           <Card.Body>
             <Card.Title><h2>Free to use</h2></Card.Title>

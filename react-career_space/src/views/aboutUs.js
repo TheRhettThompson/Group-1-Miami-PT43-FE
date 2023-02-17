@@ -7,6 +7,7 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Figure from 'react-bootstrap/Figure';
 import LMT from '../assets/lorettaMayumiThompsonPhoto.jpg';
 import KM from '../assets/kriss_Morejon_and_wife.jpg';
+import AL from '../assets/albert_Lazo.jpg';
 
 
 function AboutUs() {
@@ -39,7 +40,7 @@ function AboutUs() {
       <h1>Meet our team</h1>
       <CardGroup>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img variant="top" src={AL} />
           <Card.Body>
             <Card.Title>Albert Lazo</Card.Title>
             <Card.Text>
@@ -147,6 +148,9 @@ function AboutUs() {
         </Card>
       </CardGroup>
 
+      <br>
+      </br>
+      
       <Card>
         <Card.Body>
           <Card.Text>

@@ -12,22 +12,22 @@ import Card from 'react-bootstrap/Card';
 function ContactUs() {
   return (
     <div className='ContactUs'>
-      
+
 
       <Card className="d-block text-white contactimg1">
-      <Card.Img src="https://images.unsplash.com/photo-1506606352681-649023fac596?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTIyfHxsYXB0b3AlMjBvbiUyMHRoZSUyMGJlYWNofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60/100px180" alt="Card image" />
-      <Card.ImgOverlay>
-        <Card.Title><h1>We want to hear from you</h1></Card.Title>
-        <Card.Text>
-          Contact SouthFLDevJobs with questions or inquiries. This is a wider card with supporting text below as a natural lead-in
-          to additional content. This content is a little bit longer.
-        </Card.Text>
-        <Card.Text>Last updated 3 mins ago</Card.Text>
-      </Card.ImgOverlay>
-    </Card>
+        <Card.Img src="https://images.unsplash.com/photo-1506606352681-649023fac596?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTIyfHxsYXB0b3AlMjBvbiUyMHRoZSUyMGJlYWNofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60/100px180" alt="Card image" />
+        <Card.ImgOverlay>
+          <Card.Title><h1>We want to hear from you</h1></Card.Title>
+          <Card.Text>
+            Contact SouthFLDevJobs with questions or inquiries. This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </Card.Text>
+          <Card.Text>Last updated 3 mins ago</Card.Text>
+        </Card.ImgOverlay>
+      </Card>
 
       <Form>
-      <Row className="mb-3">
+        <Row className="mb-3">
           <Form.Group as={Col} controlId="formGridFirstName">
             <Form.Label>First Name</Form.Label>
             <Form.Control type="firstName" placeholder="First Name" />
@@ -43,6 +43,9 @@ function ContactUs() {
           <Form.Group as={Col} controlId="formGridEmail">
             <Form.Label>Email</Form.Label>
             <Form.Control type="email" placeholder="Enter email" />
+            <Form.Text className='text-muted'>
+              We'll never share your email with anyone else.
+            </Form.Text>
           </Form.Group>
 
           <Form.Group as={Col} controlId="formGridPhone">
@@ -70,8 +73,64 @@ function ContactUs() {
           <Form.Group as={Col} controlId="formGridState">
             <Form.Label>State</Form.Label>
             <Form.Select defaultValue="Choose...">
-              <option>Choose...</option>
-              <option>...</option>
+              <option>Florida</option>
+              <option>Alabama</option>
+              <option>Alaska</option>
+              <option>Arizona</option>
+              <option>Arkansas</option>
+              <option>American Samoa</option>
+              <option>California</option>
+              <option>Colorado</option>
+              <option>Connecticut</option>
+              <option>Delaware</option>
+              <option>District of Columbia</option>
+              <option>Florida</option>
+              <option>Georgia</option>
+              <option>Guam</option>
+              <option>Hawaii</option>
+              <option>Idaho</option>
+              <option>Illinois</option>
+              <option>Indiana</option>
+              <option>Iowa</option>
+              <option>Kansas</option>
+              <option>Kentucky</option>
+              <option>Louisiana</option>
+              <option>Maine</option>
+              <option>Maryland</option>
+              <option>Massachusetts</option>
+              <option>Michigan</option>
+              <option>Minnesota</option>
+              <option>Mississippi</option>
+              <option>Missouri</option>
+              <option>Montana</option>
+              <option>Nebraska</option>
+              <option>Nevada</option>
+              <option>New Hampshire</option>
+              <option>New Jersey</option>
+              <option>New Mexico</option>
+              <option>New York</option>
+              <option>North Carolina</option>
+              <option>North Dakota</option>
+              <option>Northern Mariana Islands</option>
+              <option>Ohio</option>
+              <option>Oklahoma</option>
+              <option>Oregon</option>
+              <option>Pennsylvania</option>
+              <option>Puerto Rico</option>
+              <option>Rhode Island</option>
+              <option>South Carolina</option>
+              <option>South Dakota</option>
+              <option>Tennessee</option>
+              <option>Texas</option>
+              <option>Trust Territories</option>
+              <option>Utah</option>
+              <option>Vermont</option>
+              <option>Virginia</option>
+              <option>Virgin Islands</option>
+              <option>Washington</option>
+              <option>West Virginia</option>
+              <option>Wisconsin</option>
+              <option>Wyoming</option>        
             </Form.Select>
           </Form.Group>
 
@@ -81,6 +140,11 @@ function ContactUs() {
           </Form.Group>
         </Row>
 
+        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+          <Form.Label>Enter your message to us here:</Form.Label>
+          <Form.Control as="textarea" rows={3} />
+        </Form.Group>
+
         <Form.Group className="mb-3" id="formGridCheckbox">
           <Form.Check type="checkbox" label="Check me out" />
         </Form.Group>
@@ -88,29 +152,17 @@ function ContactUs() {
         <Button variant="info" type="submit">
           Submit
         </Button>
+
+        <br />
+
       </Form>
-      <br></br>
-      <Card>
-        <Card.Header>Quote</Card.Header>
-        <Card.Body>
-          <blockquote className="blockquote mb-0">
-            <p>
-              {' '}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              posuere erat a ante.{' '}
-            </p>
-            <footer className="blockquote-footer">
-              Someone famous in <cite title="Source Title">Source Title</cite>
-            </footer>
-          </blockquote>
-        </Card.Body>
-      </Card>
+
 
 
 
     </div>
 
-    
+
 
   )
 }
