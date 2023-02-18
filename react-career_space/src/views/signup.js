@@ -46,38 +46,39 @@ export const signup = () => {
   //create State for email and password
 
   return (
-    <div>
+    <div className="SignBox">
       <form className="signup-form" onSubmit={handleSubmit}>
         <div className="forms">
-          <label>First Name</label>
+          {/* <label>First Name</label> */}
+          <br/>
           <input
             type="text"
             value={values.firstname}
-            placeholder="Enter your First name"
+            placeholder="First name"
             onChange={handleChange("firstname")}
           />
           <br></br>
-          <label>Last Name</label>
+          {/* <label>Last Name</label> */}
           <input
             type="text"
             value={values.lastname}
-            placeholder="Enter your Last Name"
+            placeholder="Last Name"
             onChange={handleChange("lastname")}
           />
           <br></br>
-          <label>Email</label>
+          {/* <label>Email</label> */}
           <input
             type="email"
             value={values.email}
-            placeholder="Enter your email"
+            placeholder="Email"
             onChange={handleChange("email")}
           />
           <br></br>
-          <label>Password</label>
+          {/* <label>Password</label> */}
           <input
             type="password"
             value={values.password}
-            placeholder="Enter your password"
+            placeholder="Password"
             onChange={handleChange("password")}
           />
         </div>
