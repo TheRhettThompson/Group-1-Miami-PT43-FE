@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import { Link } from "react-router-dom"
+import { Link, Navigate, useNavigate } from "react-router-dom"
 import Card from 'react-bootstrap/Card';
 import '../styles/jobs.css';
 const Jobs = () => {
@@ -8,6 +8,15 @@ const Jobs = () => {
   // console.log(store)
   const [jobs, setJobs] = useState([]);
   const [loading, setLoading] = useState(true);
+
+
+  // TOKEN TO ACCESS JOBS
+  const navigate = useNavigate();
+  let token = localStorage.getItem('token');
+  console.log(token)
+  if(token == null )navigate('/login')
+
+
   useEffect(() => {
     setLoading(true);
     fetch("https://indeed12.p.rapidapi.com/jobs/search?query=software%20engineer&location=miami&page_id=2",

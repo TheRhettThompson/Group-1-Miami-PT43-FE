@@ -24,6 +24,7 @@ function NavbarComponent() {
           <Nav.Link href="home">Home</Nav.Link>
             <Nav.Link href="aboutus">About Us</Nav.Link>
             <Nav.Link href="contactus">Contact Us</Nav.Link>
+            <Nav.Link href="jobs">Jobs</Nav.Link>
             {/* <NavDropdown title="Dropdown changing soon" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
