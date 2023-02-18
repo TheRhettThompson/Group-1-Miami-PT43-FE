@@ -22,16 +22,16 @@ function AboutUs() {
         />
          
         <Figure.Caption>
-          <h1>This is going to be the mission statement of SouthFLDevJobs.</h1>
-          <p>Something along the lines of...It all started because we were going through
-            bootcamp, and looking for good jobs in the area that we wouldn't have to
-            physically relocate to. It was very confusing to search through multiple
-            apps just to find jobs in South Florida, or the search was way too broad
-            and most of the jobs were remote but didn't really lock down where the
-            physical location was...Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-            ut aliquip ex ea commodo consequat.</p>
+          <h1>It all started because we were going through bootcamp, and looking for good jobs in the area that we wouldn't have to physically relocate to....</h1>
+          <p> Our mission at SouthFLDevJobs.com is to provide job seekers and employers in the tech industry in 
+            South Florida with a user-friendly and comprehensive platform for job 
+            listings. We understand the challenges faced by job seekers in the region. 
+            While in coding bootcamp, we struggled to find relevant job opportunities that would 
+            not require us physically relocating. Our web app is designed to streamline the job search process and provide 
+            accurate and specific job listings in Miami-Dade, Broward, and Palm Beach 
+            counties. We are committed to supporting the growth of the tech industry 
+            in South Florida by connecting talented individuals with exciting career 
+            opportunities and helping businesses find the right talent to thrive and succeed.</p>
         </Figure.Caption>
       </div>
 
@@ -85,9 +85,8 @@ function AboutUs() {
           <Card.Body>
             <Card.Title>Kriss Morejon</Card.Title>
             <Card.Text>
-              A short bio goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec
-              adipiscing tristique risus nec feugiat in fermentum. At tellus at urna.{' '}
+              An avid gamer and proud family man, Kriss Morejon etc short bio goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. {' '}
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -117,12 +116,10 @@ function AboutUs() {
           <Card.Body>
             <Card.Title>Loretta Mayumi Thompson</Card.Title>
             <Card.Text>
-              A short bio goes here.This is a wider card with supporting text below as a natural lead-in
-              to additional content. This card has even longer content than the
-              first to show that equal height action. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Viverra nibh cras pulvinar mattis nunc
-              sed blandit libero volutpat. Ipsum faucibus vitae aliquet.
+              never thought a career in the tech industry would be open to her, but 
+              thanks United Way Miami Workforce Project and 4Geeks Academy for the 
+              opportunity to participate in this coding bootcamp. She hopes etc etc etc 
+               short bio goes here. 
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -153,7 +150,7 @@ function AboutUs() {
       <Card>
         <Card.Body>
           <Card.Text>
-            It all started because we were going through bootcamp, and looking for good jobs in the area that we wouldn't have to physically relocate to....
+            <h1>Something interesting here</h1>
           </Card.Text>
         </Card.Body>
         <Card.Img variant="bottom" src="https://images.unsplash.com/photo-1518893494013-481c1d8ed3fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fFdoZXJlJTIwYXJlJTIwdGhlJTIwam9ic3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1600&q=60/100px180" />
