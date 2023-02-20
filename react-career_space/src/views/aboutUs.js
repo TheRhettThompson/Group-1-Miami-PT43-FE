@@ -9,6 +9,7 @@ import LMT from '../assets/lorettaMayumiThompsonPhoto.jpg';
 import KM from '../assets/kriss_Morejon.jpg';
 import AL from '../assets/albert_Lazo.jpg';
 import Geeks from '../assets/geeks_logo.png';
+import UWM from '../assets/UnitedWayMiami_logo.png';
 
 
 function AboutUs() {
@@ -157,16 +158,27 @@ function AboutUs() {
       </Card> */}
 
       <br/>
-      <div className='ThankYou container'></div>
-      <Figure>
-        <Figure.Image variant="top" src={Geeks} />
-        <Figure.Caption>
-          Thank you, 4Geeks Academy! She never thought the field would be open to her, but with 
-                  the help of United Way Miami Workforce Project, 4Geeks Academy, and philanthropist 
-                  Mackenzie Scott, Loretta was able to participate in a coding bootcamp that kickstarted 
-                  her new career path. 
-        </Figure.Caption>
-      </Figure>
+
+      <div className='ThankYou container'>
+        <Card style={{ width: '18rem' }}>
+        <Card.Body>
+          <Card.Title>We want to thank you!</Card.Title>
+          <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+          <Card.Text>
+            This project was made possible with the help of United Way Miami Workforce Project, 
+            4Geeks Academy, and a generous gift from philanthropist Mackenzie Scott.
+          </Card.Text>
+          <Figure.Image variant="top" src={UWM} />
+          <Figure.Image variant="top" src={Geeks} />
+          <Card.Link href="#">Card Link</Card.Link>
+          <Card.Link href="#">Another Link</Card.Link>
+        </Card.Body>
+        </Card>
+      </div>
+
+
+
+        
 
     </div>
    
