@@ -68,10 +68,9 @@ function Landing() {
                   <Form.Label>Find your next tech job in South Florida now.</Form.Label>
                   <Form.Control type="email" placeholder="Enter your email address" />
                   <Form.Text className="text-muted">
-                    We'll never share your email with anyone else. By siGning up for SouthFLDevJobs.com,
-                    you agree to SouthFLDevJobs.com's 
-                    <Link to='/termsofserviceprivacy'>Terms of Service & Privacy Policy</Link>,
-                    each one has a hyperlink to those pages
+                    We'll never share your email with anyone else. By signing up for SouthFLDevJobs,
+                    you agree to our <Link to='/termsofserviceprivacy'>Terms of Service & Privacy Policy</Link>
+                     
                   </Form.Text>
                 </Form.Group>
                   <Button variant="backGroundColor= #8e793e" type="submit">

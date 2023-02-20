@@ -37,7 +37,12 @@
 }
 
 .container{
-    margin-top: 1rem;
+    margin-top: 2rem;
+}
+
+.TestFigure button{
+    background-color: #ed13e5;
+    text-color: white;
 }
 
 .companyLogos{
