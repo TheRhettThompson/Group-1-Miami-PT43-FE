@@ -27,14 +27,14 @@ export const Login = () => {
     };
     await axios
       .post(
-        `https://3001-therhetttho-group1miami-8zuciurcbbs.ws-us86.gitpod.io/api/login`,
+        `https://3001-therhetttho-group1miami-83kks56v92r.ws-us87.gitpod.io/api/login`,
         userData,
         options
       )
       .then((result) => {
         window.localStorage.setItem("token", result.data.token);
         setToken(result.data.token);
-        window.location.href = "/dashboard"
+        window.location.href = "/jobs"
         console.log(result.data);
       })
 

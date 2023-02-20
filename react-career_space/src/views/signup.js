@@ -26,7 +26,7 @@ export const signup = () => {
 
     await axios
       .post(
-        `https://3001-therhetttho-group1miami-8zuciurcbbs.ws-us86.gitpod.io/api/signup`,
+        `https://3001-therhetttho-group1miami-83kks56v92r.ws-us87.gitpod.io/api/signup`, 
         userData,
         options
       )

@@ -3,7 +3,9 @@ const getState = ({ getStore, getActions, setStore }) => {
     store: {
       jobs: [],
       favorites: [],
-      api: `https://3001-therhetttho-group1miami-8zuciurcbbs.ws-us86.gitpod.io`,
+      // api: `https://3001-therhetttho-group1miami-8zuciurcbbs.ws-us86.gitpod.io`,
+      api: `https://3001-therhetttho-group1miami-83kks56v92r.ws-us87.gitpod.io`,
+      // THIS URL SHOULD BE UPDATED EVERYTIME WE RESTART THE INSTANCES
 
     },
 

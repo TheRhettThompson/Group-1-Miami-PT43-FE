@@ -4,24 +4,31 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import React from "react";
 import "../styles/navbar.css";
-import { useContext } from "react";  
+import { useContext } from "react";
 import Logo from "../assets/SouthFLDevJobs_logo.jpg"
+import { useNavigate } from "react-router-dom"
 
 {/* <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"></link> */}
 
 function NavbarComponent() {
-  
-  return ( 
+  let token = localStorage.getItem('token');
+  const navigate = useNavigate();
+  function handleLogout() {
+    localStorage.clear();
+    navigate('/');
+  }
+
+  return (
     // DELETED navbarcomponent FROM LINE 18 
-    <Navbar  expand="lg" bg="light" variant="light">
+    <Navbar expand="lg" bg="light" variant="light">
       <Container>
-        <Navbar.Brand href="/"> <img src = { Logo } className="w-50" /> </Navbar.Brand>
+        <Navbar.Brand href="/"> <img src={Logo} className="w-50" /> </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-          <Nav.Link href="home">Home</Nav.Link>
+            <Nav.Link href="home">Home</Nav.Link>
             <Nav.Link href="aboutus">About Us</Nav.Link>
             <Nav.Link href="contactus">Contact Us</Nav.Link>
             <Nav.Link href="jobs">Jobs</Nav.Link>
@@ -38,17 +45,25 @@ function NavbarComponent() {
             </NavDropdown> */}
           </Nav>
           <Nav>
-            <Nav.Link href="signup">Sign Up</Nav.Link>
-            <Nav.Link className="login" eventKey={2} href="login">
-              Log In
-            </Nav.Link>
+            {localStorage.getItem('token') ? (
+              <div><Nav.Link onClick={handleLogout}>Sign Out</Nav.Link></div>) : (
+              
+                <div className="ender"><Nav.Link href="signup">Sign Up</Nav.Link>
+                  <Nav.Link className="login" eventKey={2} href="login">
+                    Log In
+                  </Nav.Link>
+                </div>
+
+            
+
+            )}
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
   );
 
-// FIRST NAVBAR
+  // FIRST NAVBAR
 
   // return (
   //   <Navbar bg="light" expand="lg" className="navbar">
