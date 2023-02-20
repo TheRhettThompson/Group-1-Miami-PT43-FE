@@ -71,9 +71,7 @@ function AboutUs() {
                         <a href='https://facebook.com/Vodevil82' target='_blank'>
                           <i class="fa-brands fa-facebook"/></a>
                     </Button>
-
-
-                    <Button variant="backGroundColor= #8e793e"><i class="fa-brands fa-google"></i></Button>
+                    
                   </ButtonGroup>
 
                 </small>
@@ -103,10 +101,7 @@ function AboutUs() {
                           <i class="fa-brands fa-github"/></a>
                     </Button>
                   
-                    {/* <Button variant="backGroundColor= #8e793e">
-                      <a href='mailto:ChristopherMorejon17@gmail.com?body=My custom mail body' target='_blank'>
-                      <i class="fa-brands fa-google"/></a>
-                    </Button> */}
+                   
                           
                   </ButtonGroup>
                 </small>
@@ -136,9 +131,7 @@ function AboutUs() {
                         <a href='https://github.com/TheRhettThompson' target='_blank'>
                           <i class="fa-brands fa-github"/></a>
                     </Button>
-                    
-                    <Button variant="backGroundColor= #8e793e"><i class="fa-brands fa-google"></i></Button>
-
+                                       
                   </ButtonGroup>
                 </small>
               </Card.Footer>

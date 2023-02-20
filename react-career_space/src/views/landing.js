@@ -11,6 +11,7 @@ import chewyLogo from '../assets/chewy_logo.png';
 import citadelLogo from '../assets/citadel_securities.png';
 import neorisLogo from '../assets/neoris_logo.png';
 import cloudLogo from '../assets/cloud_logo.jpg';
+import { Link } from 'react-router-dom';
 
 function Landing() {
   return (
@@ -68,7 +69,8 @@ function Landing() {
                   <Form.Control type="email" placeholder="Enter your email address" />
                   <Form.Text className="text-muted">
                     We'll never share your email with anyone else. By siGning up for SouthFLDevJobs.com,
-                    you agree to SouthFLDevJobs.com's Terms of Service & Privacy Policy,
+                    you agree to SouthFLDevJobs.com's 
+                    <Link to='/termsofserviceprivacy'>Terms of Service & Privacy Policy</Link>,
                     each one has a hyperlink to those pages
                   </Form.Text>
                 </Form.Group>

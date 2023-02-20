@@ -33,11 +33,17 @@
         90deg, 
         rgba(142,121,62,0.947391456582633) 5%,
         rgba(173,151,79,0.5776435574229692) 42%);
+
+}
+
+.container{
+    margin-top: 1rem;
 }
 
 .companyLogos{
-    width: 65px;
+    /* width: 65px; */
     height: 65px;
+    /* object-fit: cover; */
 }
 
 .cardGroupTestimonial{
