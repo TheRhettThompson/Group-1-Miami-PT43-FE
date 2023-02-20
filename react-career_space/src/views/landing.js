@@ -4,6 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
+import Figure from 'react-bootstrap/Figure';
 import Form from 'react-bootstrap/Form';
 import ryderLogo from '../assets/ryder-system-inc-logo-vector.png';
 import chewyLogo from '../assets/chewy_logo.png';
@@ -54,30 +55,36 @@ function Landing() {
         </Carousel.Item>
       </Carousel>
 
-      <div >
-        <h1>SouthFLDevJobs.com</h1>
-        <p>The easiest way to search for tech industry jobs in South Florida</p>
+      <div className='container'>
+        <Card>
+          <div className="TestFigure">
+                     
+            <Card.Body>
+              <div className='card-title'><h4>SouthFLDevJobs</h4></div>
+              <div className='card-subtitle'>The easiest way to search for tech industry jobs in South Florida</div>
+              <Form >
+                <Form.Group className="mb-3 container" controlId="formBasicEmail">
+                  <Form.Label>Find your next tech job in South Florida now.</Form.Label>
+                  <Form.Control type="email" placeholder="Enter your email address" />
+                  <Form.Text className="text-muted">
+                    We'll never share your email with anyone else. By siGning up for SouthFLDevJobs.com,
+                    you agree to SouthFLDevJobs.com's Terms of Service & Privacy Policy,
+                    each one has a hyperlink to those pages
+                  </Form.Text>
+                </Form.Group>
+                  <Button variant="backGroundColor= #8e793e" type="submit">
+                    Start now
+                  </Button>
+              </Form>
 
-        {/* <h1>By siGning up for Career Space, you agree to Career Space's Terms of Service & Privacy Policy,
-            each one has a hyperlink to those pages</h1> */}
+            </Card.Body>
+          </div> 
+        </Card>
       </div>
 
-      <Form>
-        <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Find your next tech job in South Florida now.</Form.Label>
-          <Form.Control type="email" placeholder="Enter your email address" />
-          <Form.Text className="text-muted">
-            We'll never share your email with anyone else. By siGning up for SouthFLDevJobs.com,
-            you agree to SouthFLDevJobs.com's Terms of Service & Privacy Policy,
-            each one has a hyperlink to those pages
-          </Form.Text>
-        </Form.Group>
-        <Button variant="backGroundColor= #8e793e" type="submit">
-          Start now
-        </Button>
-      </Form>
 
-      <div className="cardGroupTestimonial">
+
+      <div className="cardGroupTestimonial container">
         <Card border="info" style={{ width: '18rem' }} >
           <Card.Img variant="top" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHN0YXJ0dXAlMjBvZmZpY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=1600&q=60/100px180" />
           <Card.Body>
@@ -135,20 +142,24 @@ function Landing() {
         <Button variant="light">Another Logo</Button>
       </ButtonGroup>
 
-      <Card border="info">
-        <Card.Header>Live your best life</Card.Header>
-        <Card.Body>
-          <blockquote className="blockquote mb-0">
-            <p>
-              {' '}
-              If you would have told me that I would be able to find a web dev job for an innovative startup that could easily fit in Silicon Valley, but I get to code on the beach, I would have never believed it. Until I found SouthFLDevJobs, of course!{' '}
-            </p>
-            <footer className="blockquote-footer">
-              Jackie Smith <cite title="Source Title">web developer, PalmFrond.com</cite>
-            </footer>
-          </blockquote>
-        </Card.Body>
-      </Card>
+      <br>
+      </br>
+      <div className='quoteCard container'>
+        <Card border="info">
+          <Card.Header>Live your best life</Card.Header>
+          <Card.Body>
+            <blockquote className="blockquote mb-0">
+              <p>
+                {' '}
+                If you would have told me that I would be able to find a web dev job for an innovative startup that could easily fit in Silicon Valley, but I get to code on the beach, I would have never believed it. Until I found SouthFLDevJobs, of course!{' '}
+              </p>
+              <footer className="blockquote-footer">
+                Jackie Smith <cite title="Source Title">web developer, PalmFrond.com</cite>
+              </footer>
+            </blockquote>
+          </Card.Body>
+        </Card>
+      </div>
 
       <div>
         <div style={{ display: 'flex' }}>
