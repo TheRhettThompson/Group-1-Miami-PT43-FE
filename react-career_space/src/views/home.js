@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/home.css";
 import { Link } from "react-router-dom"
 import Card from 'react-bootstrap/Card';
+import CardGroup from 'react-bootstrap/CardGroup';
 import Button from 'react-bootstrap/Button';
 
 export const Home = () => {
@@ -51,6 +52,7 @@ export const Home = () => {
 						<Card.Text>
 							All of South Florida tech sector jobs. All in one place.
 						</Card.Text>
+
 						<div className="WelcomeToButtons" >
 							<Link to={'/signup'}>
 								<button>Signup</button>
@@ -61,13 +63,77 @@ export const Home = () => {
 						</div>
 
 
-						<Button variant="primary">Go somewhere</Button>
+						
+
 					</Card.Body>
 					<Card.Footer className="text-muted">SOMETHING HERE</Card.Footer>
 				</Card>
 				{/* something here */}
 
 
+			</div>
+
+			
+
+			<div className="TriCounties container">
+				<CardGroup>
+					<Card>
+						<Card.Img variant="top" src="holder.js/100px160" />
+						<Card.Body>
+							<Card.Title>Miami-Dade</Card.Title>
+							<Card.Text>
+								Find jobs in the Miami metropolitan area. This is a wider card with supporting text below as a natural lead-in
+								to additional content. This content is a little bit longer.
+							</Card.Text>
+						</Card.Body>
+						<Card.Footer>
+							<small className="text-muted">Last updated 3 mins ago</small>
+						</Card.Footer>
+					</Card>
+					<Card>
+						<Card.Img variant="top" src="holder.js/100px160" />
+						<Card.Body>
+							<Card.Title>Broward</Card.Title>
+							<Card.Text>
+								Find jobs in the Ft Lauderdale area.This card has supporting text below as a natural lead-in to
+								additional content.{' '}
+							</Card.Text>
+						</Card.Body>
+						<Card.Footer>
+							<small className="text-muted">Last updated 3 mins ago</small>
+						</Card.Footer>
+					</Card>
+					<Card>
+						<Card.Img variant="top" src="holder.js/100px160" />
+						<Card.Body>
+							<Card.Title>Palm Beaches</Card.Title>
+							<Card.Text>
+								Find jobs in Boca Raton, West Palm Beach, and other cities. This is a wider card with supporting text below as a natural lead-in
+								to additional content. This card has even longer content than the
+								first to show that equal height action.
+							</Card.Text>
+						</Card.Body>
+						<Card.Footer>
+							<small className="text-muted">Last updated 3 mins ago</small>
+						</Card.Footer>
+					</Card>
+				</CardGroup>
+				
+
+
+				
+
+				
+			</div>
+
+			
+
+			<div>
+				<h1>Career Advice</h1>
+			</div>
+
+			<div>
+					<h1>Latest happenings and events</h1>
 			</div>
 
 			<br />
@@ -82,6 +148,10 @@ export const Home = () => {
 					<Card.Text>EMAIL BAR HERE</Card.Text>
 				</Card.ImgOverlay>
 			</Card>
+
+			<div>
+				<h1>Software developer recruiters</h1>
+			</div>
 
 
 			{/* THIS IS FOR THE BUTTONS */}

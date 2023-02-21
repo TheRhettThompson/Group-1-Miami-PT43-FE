@@ -27,6 +27,10 @@
         rgba(173,151,79,0.5776435574229692) 42%);
 }
 
+.cardGroupTestimonial{
+    margin: 1rem;
+} 
+
 .Companies{
     background: rgb(142,121,62);
     background: linear-gradient(

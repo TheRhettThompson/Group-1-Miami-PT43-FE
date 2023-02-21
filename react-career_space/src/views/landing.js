@@ -25,8 +25,8 @@ function Landing() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>Your next tech job could be under the sun</h3>
-            <p>Search here for jobs in South Florida.</p>
+            <Card.Title><h1>Your next tech job could be under the sun</h1></Card.Title>
+            <Card.Text>Search here for jobs in South Florida.</Card.Text>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -38,8 +38,8 @@ function Landing() {
           />
 
           <Carousel.Caption>
-            <h3>Work magic in the Magic City</h3>
-            <p>Enter here for jobs in Miami-Dade, Broward, and South Florida.</p>
+            <Card.Title><h1>Work magic in the Magic City</h1></Card.Title>
+            <Card.Text>Enter here for jobs in Miami, Ft Lauderdale, and the Palm Beaches.</Card.Text>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -50,8 +50,9 @@ function Landing() {
           />
 
           <Carousel.Caption>
-            <h3>Why work in Silicon Valley when you could have endless beaches?</h3>
-            <p>Search for tech jobs in Miami and South Florida here.</p>
+            <Card.Title><h1>Why work in down in a Valley</h1></Card.Title>
+            <Card.Title><h1>when you could have endless beaches?</h1></Card.Title>
+            <Card.Text>Search for tech jobs in South Florida here.</Card.Text>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
@@ -59,11 +60,12 @@ function Landing() {
       <div className='StartNow container'>
         <Card>
           <Card.Body>
-            <div className='card-title '><h4>SouthFLDevJobs</h4></div>
-            <div className='card-subtitle'>The easiest way to search for tech industry jobs in South Florida</div>
+            <Card.Title><h1>SouthFLDevJobs</h1></Card.Title>
+            <Card.Text>The easiest way to search for tech industry jobs in South Florida.</Card.Text>
+           
             <Form >
               <Form.Group className="mb-3 container" controlId="formBasicEmail">
-                <Form.Label>Find your next tech job in South Florida now.</Form.Label>
+                <Form.Label><h1>Find your next tech job in South Florida now.</h1></Form.Label>
                 <Form.Control type="email" placeholder="Enter your email address" />
                 <Form.Text className="text-muted">
                   We'll never share your email with anyone else. By signing up for SouthFLDevJobs,
@@ -71,7 +73,7 @@ function Landing() {
 
                 </Form.Text>
               </Form.Group>
-              <Button variant="" type="submit">
+              <Button variant="mb-3" type="submit">
                 Start now
               </Button>
             </Form>
