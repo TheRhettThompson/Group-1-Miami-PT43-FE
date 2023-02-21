@@ -56,30 +56,26 @@ function Landing() {
         </Carousel.Item>
       </Carousel>
 
-      <div className='container'>
+      <div className='StartNow container'>
         <Card>
-          <div className="TestFigure">
-                     
-            <Card.Body>
-              <div className='card-title'><h4>SouthFLDevJobs</h4></div>
-              <div className='card-subtitle'>The easiest way to search for tech industry jobs in South Florida</div>
-              <Form >
-                <Form.Group className="mb-3 container" controlId="formBasicEmail">
-                  <Form.Label>Find your next tech job in South Florida now.</Form.Label>
-                  <Form.Control type="email" placeholder="Enter your email address" />
-                  <Form.Text className="text-muted">
-                    We'll never share your email with anyone else. By signing up for SouthFLDevJobs,
-                    you agree to our <Link to='/termsofserviceprivacy'>Terms of Service & Privacy Policy</Link>
-                     
-                  </Form.Text>
-                </Form.Group>
-                  <Button variant="backGroundColor= #8e793e" type="submit">
-                    Start now
-                  </Button>
-              </Form>
+          <Card.Body>
+            <div className='card-title '><h4>SouthFLDevJobs</h4></div>
+            <div className='card-subtitle'>The easiest way to search for tech industry jobs in South Florida</div>
+            <Form >
+              <Form.Group className="mb-3 container" controlId="formBasicEmail">
+                <Form.Label>Find your next tech job in South Florida now.</Form.Label>
+                <Form.Control type="email" placeholder="Enter your email address" />
+                <Form.Text className="text-muted">
+                  We'll never share your email with anyone else. By signing up for SouthFLDevJobs,
+                  you agree to our <Link to='/termsofserviceprivacy'>Terms of Service & Privacy Policy</Link>
 
-            </Card.Body>
-          </div> 
+                </Form.Text>
+              </Form.Group>
+              <Button variant="" type="submit">
+                Start now
+              </Button>
+            </Form>
+          </Card.Body>
         </Card>
       </div>
 

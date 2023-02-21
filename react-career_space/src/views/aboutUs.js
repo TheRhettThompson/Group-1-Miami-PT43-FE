@@ -10,6 +10,7 @@ import CM from '../assets/christopher_Morejon.jpg';
 import AL from '../assets/albert_Lazo.jpg';
 import Geeks from '../assets/geeks_logo.png';
 import UWM from '../assets/UnitedWayMiami_logo.png';
+import SF from '../assets/social_Finance_Logo.jpg';
 
 
 function AboutUs() {
@@ -169,14 +170,18 @@ function AboutUs() {
             4Geeks Academy, and a generous gift from philanthropist Mackenzie Scott.
           </Card.Text>
           <Figure.Image variant="top" src={UWM} />
+          <Figure.Image variant="top" src={SF} />
           <Figure.Image variant="top" src={Geeks} />
-          <Card.Link href="#">Card Link</Card.Link>
-          <Card.Link href="#">Another Link</Card.Link>
+          {/* <Card.Link href="#">Card Link</Card.Link>
+          <Card.Link href="#">Another Link</Card.Link> */}
         </Card.Body>
         </Card>
       </div>
 
-
+{/* <ButtonGroup aria-label="Companies" size="lg" className="mb-2">
+        <Button variant="light"><a href='https://ryder.com/careers' target='_blank' >
+          <img className='companyLogos' src={ryderLogo} /> </a>
+        </Button> */}
 
         
 

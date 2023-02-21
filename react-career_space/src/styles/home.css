@@ -1,13 +1,21 @@
-.home{
-    text-align: center;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg,
-        rgba(2, 0, 36, 1) 0%,
-        rgba(173, 151, 79, 1) 40%);
+.Home{
+    background: rgb(142,121,62);
+    background: linear-gradient(
+        90deg, 
+        rgba(142,121,62,0.947391456582633) 5%,
+        rgba(173,151,79,0.5776435574229692) 42%);
+    }
+
+.HomeIntro{
+
+    object-fit: cover;
+    
+     
 }
 
-.button{
-    padding: 10px;
-    margin-left: 10px;
-}
+
+/* .WelcomeToButtons{
+    padding: 5px;
+    margin: 20px;
+} */
 

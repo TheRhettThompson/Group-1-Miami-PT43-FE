@@ -40,9 +40,9 @@
     margin-top: 2rem;
 }
 
-.TestFigure button{
+.StartNow button{
     background-color: #ed13e5;
-    text-color: white;
+    
 }
 
 .companyLogos{
@@ -55,6 +55,7 @@
     display: flex;
     padding: 20px;
     justify-content: center;
+
 }
 
 .testimonyCard{
