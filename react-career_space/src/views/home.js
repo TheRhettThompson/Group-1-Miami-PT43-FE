@@ -11,7 +11,7 @@ export const Home = () => {
 			<div className="OpenPossibilities ">
 				<Card className="bg-dark text-white">
 					<Card.Img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1pYW1pJTIwdGVjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60/100px270" alt="Card image" />
-					<Card.ImgOverlay>
+					<Card.ImgOverlay className="homeImgOverTop">
 						<Card.Title><h1>Open New Opportunities</h1></Card.Title>
 						<Card.Text>
 							Something here. This is a wider card with supporting text below as a natural lead-in
@@ -24,15 +24,15 @@ export const Home = () => {
 
 			<div className="HomeIntro">
 				<Card className="bg-dark text-white">
-					<Card.Img src="https://images.unsplash.com/photo-1551989858-b296d6bf011a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1pYW1pJTIwdGVjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60/100px270" alt="Card image" />
-					<Card.ImgOverlay>
+					<Card.Img className="homeIntroImg" src="https://images.unsplash.com/photo-1551989858-b296d6bf011a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1pYW1pJTIwdGVjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60/100px270" alt="Card image" />
+					<Card.ImgOverlay className="homeIntroOverlay">
 						<Card.Title><h1>You need a job in the tech industry.</h1></Card.Title>
 						<Card.Title><h1>South Florida needs you.</h1></Card.Title>
 						<Card.Text>
 							This is a wider card with supporting text below as a natural lead-in
 							to additional content. This content is a little bit longer.
 						</Card.Text>
-						<Card.Text>Last updated 3 mins ago</Card.Text>
+						
 					</Card.ImgOverlay>
 				</Card>
 			</div>
@@ -53,12 +53,12 @@ export const Home = () => {
 							All of South Florida tech sector jobs. All in one place.
 						</Card.Text>
 
-						<div className="WelcomeToButtons" >
+						<div className=" " >
 							<Link to={'/signup'}>
-								<button>Signup</button>
+								<button className="WelcomeToButtons">Signup</button>
 							</Link>
 							<Link to={'/login'}>
-								<button>Log In</button>
+								<button className="WelcomeToButtons">Log In</button>
 							</Link>
 						</div>
 
@@ -125,18 +125,18 @@ export const Home = () => {
 
 				
 			</div>
-
+			<br/>
 			
 
-			<div>
+			{/* <div>
 				<h1>Career Advice</h1>
-			</div>
-
+			</div> */}
+{/* 
 			<div>
 					<h1>Latest happenings and events</h1>
-			</div>
+			</div> */}
 
-			<br />
+			{/* <br />
 			<Card className="bg-dark text-white">
 				<Card.Img src="https://images.unsplash.com/photo-1597535973747-951442d5dbc7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fG1pYW1pJTIwdGVjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60/100px270" alt="Card image" />
 				<Card.ImgOverlay>
@@ -151,7 +151,7 @@ export const Home = () => {
 
 			<div>
 				<h1>Software developer recruiters</h1>
-			</div>
+			</div> */}
 
 
 			{/* THIS IS FOR THE BUTTONS */}

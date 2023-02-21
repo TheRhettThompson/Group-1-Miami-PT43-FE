@@ -7,20 +7,36 @@
     }
 
 .HomeIntro{
-
     object-fit: cover;
+   
     
-     
 }
 
+.homeImgOverTop{
+    padding-top: 5rem !important;
+}
 
-/* .WelcomeToButtons{
+.homeIntroImg{
+    object-fit: cover;
+    height: 600px;
+    width: 100%;
+}
+
+.homeIntroOverlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+
+
+.WelcomeToButtons{
     padding: 5px;
     margin: 20px;
-   
-    border: solid 2px aqua;
+    width: 100px;
+    border: none;
     border-radius: 30px;
     background-color: aqua;
-    color: white;
-} */
+    color: chartreuse;
+}
 

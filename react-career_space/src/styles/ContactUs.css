@@ -11,8 +11,14 @@
 .Card {
     text-align: center;
 }
-/* border: solid 2px aqua !important;
-    border-radius: 30px !important;
-    background-color: aqua !important;
-    color: white !important;
-    width: 26%; */
+
+
+.imageOverlay{
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+    color: deeppink;
+    /* justify-items: center; */
+    padding-top: 6rem !important ;
+    /* justify-content: center;*/
+}

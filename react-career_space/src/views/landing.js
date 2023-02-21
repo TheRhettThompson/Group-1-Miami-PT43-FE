@@ -60,23 +60,32 @@ function Landing() {
       <div className='StartNow container'>
         <Card>
           <Card.Body>
-            <Card.Title><h1>SouthFLDevJobs</h1></Card.Title>
-            <Card.Text>The easiest way to search for tech industry jobs in South Florida.</Card.Text>
-           
-            <Form >
-              <Form.Group className="mb-3 container" controlId="formBasicEmail">
-                <Form.Label><h1>Find your next tech job in South Florida now.</h1></Form.Label>
-                <Form.Control type="email" placeholder="Enter your email address" />
-                <Form.Text className="text-muted">
-                  We'll never share your email with anyone else. By signing up for SouthFLDevJobs,
-                  you agree to our <Link to='/termsofserviceprivacy'>Terms of Service & Privacy Policy</Link>
+            <div className='callToActionImput'>
+              <div className='callToActionBox'>
+                <Card.Title><h1>SouthFLDevJobs</h1></Card.Title>
+                <Card.Text>The easiest way to search for tech industry jobs in South Florida.</Card.Text>
+              </div>
 
-                </Form.Text>
-              </Form.Group>
-              <Button variant="mb-3" type="submit">
-                Start now
-              </Button>
-            </Form>
+              <Form >
+                <Form.Group className="mb-3 formEmailContainer container" controlId="formBasicEmail">
+                  <Form.Label><h2>Find your next tech job in South Florida now.</h2></Form.Label>
+
+                  <div className='formControlBox'>
+                    <Form.Control className='formEmailImput' type="email" placeholder="Enter your email address" />
+                    <Button variant="mb-3" type="submit">
+                      Start now
+                    </Button>
+                  </div>
+                </Form.Group>
+
+
+              </Form>
+            </div>
+            <Form.Text className="text-muted">
+              We'll never share your email with anyone else. By signing up for SouthFLDevJobs,
+              you agree to our <Link to='/termsofserviceprivacy'>Terms of Service & Privacy Policy</Link>
+
+            </Form.Text>
           </Card.Body>
         </Card>
       </div>
@@ -84,7 +93,7 @@ function Landing() {
 
 
       <div className="cardGroupTestimonial container">
-        <Card border="info" style={{ width: '18rem' }} >
+        <Card border="info" style={{ width: '18rem' , margin:'1rem' }} >
           <Card.Img variant="top" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHN0YXJ0dXAlMjBvZmZpY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=1600&q=60/100px180" />
           <Card.Body>
             <Card.Title><h2>Free to use</h2></Card.Title>
@@ -94,7 +103,7 @@ function Landing() {
           </Card.Body>
         </Card>
 
-        <Card border="info" style={{ width: '18rem' }}>
+        <Card border="info" style={{ width: '18rem' , margin:'1rem' }}>
           <Card.Img variant="top" src="https://images.unsplash.com/photo-1506606352681-649023fac596?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGFwdG9wJTIwb24lMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1600&q=60/100px180" />
           <Card.Body>
             <Card.Title><h2>Find jobs based in South Florida</h2></Card.Title>
@@ -104,7 +113,7 @@ function Landing() {
           </Card.Body>
         </Card>
 
-        <Card border="info" style={{ width: '18rem' }}>
+        <Card border="info" style={{ width: '18rem' , margin:'1rem' }}>
           <Card.Img variant="top" src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHN0YXJ0dXB8ZW58MHx8MHx8&auto=format&fit=crop&w=1600&q=60/100px180" />
           <Card.Body>
             <Card.Title><h2>Jobs of all tech levels available</h2></Card.Title>
@@ -137,8 +146,6 @@ function Landing() {
         </Button>
 
 
-        <Button variant="light">Another Logo</Button>
-        <Button variant="light">Another Logo</Button>
       </ButtonGroup>
 
       <br>

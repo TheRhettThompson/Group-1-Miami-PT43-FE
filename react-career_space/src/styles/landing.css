@@ -44,9 +44,42 @@
     margin-top: 2rem;
 }
 
+.formEmailImput{
+    width: 400px !important;
+
+}
+
+.formEmailContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.callToActionImput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.formControlBox{
+    display: flex;
+}
+
+.callToActionBox{
+    background-color: darksalmon;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .StartNow button{
     background-color: #ed13e5;
     
+}
+
+.StartNow button:hover{
+    background-color: #ab0ca5;
 }
 
 /* .button{
