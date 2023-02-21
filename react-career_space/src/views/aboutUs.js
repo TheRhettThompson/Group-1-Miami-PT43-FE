@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Figure from 'react-bootstrap/Figure';
 import LMT from '../assets/lorettaMayumiThompsonPhoto.jpg';
-import KM from '../assets/kriss_Morejon.jpg';
+import CM from '../assets/christopher_Morejon.jpg';
 import AL from '../assets/albert_Lazo.jpg';
 import Geeks from '../assets/geeks_logo.png';
 import UWM from '../assets/UnitedWayMiami_logo.png';
@@ -84,9 +84,9 @@ function AboutUs() {
               </Card.Footer>
             </Card>
             <Card>
-              <Card.Img variant="top" src={KM}/>
+              <Card.Img variant="top" src={CM}/>
               <Card.Body>
-                <Card.Title>Kriss Morejon</Card.Title>
+                <Card.Title>Christopher Morejon</Card.Title>
                 <Card.Text>
                   Aside from coding, Chris loves spending time in group activites with his wife, 
                   his 4 year old son, and their tight group of friends. Chris also enjoys working 
