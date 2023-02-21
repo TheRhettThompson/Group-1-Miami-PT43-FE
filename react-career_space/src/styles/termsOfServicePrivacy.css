@@ -5,3 +5,12 @@
         rgba(142,121,62,0.947391456582633) 5%,
         rgba(173,151,79,0.5776435574229692) 42%);
 }
+
+.AgreeButton{
+    /* border: solid 2px; */
+    /* border-radius: 80px; */
+   
+    /* color: white; */
+    /* width: 100px; */
+    text-decoration: white;
+}

@@ -6,21 +6,32 @@ import Card from 'react-bootstrap/Card';
 
 function TermsOfServicePrivacy() {
     return (
-        <div className='termsOfServicePrivacy'>
+        <div className='termsOfServicePrivacy container'>
             <Card>
                 <Card.Header><h1>Terms of Service & Privacy</h1></Card.Header>
                 <Card.Body>
                     <Card.Title>Please read the following Terms of Service Agreement carefully.</Card.Title>
                     <Card.Text>
-                        <p> By accessing or using SouthFLDevJobs, known as "our website", and our services,
-                            you hereby agree to be bound by the terms and all terms incorporated
-                            herein by reference. It is the responsibility of you, the user, or
-                            potential User, to read the terms and conditions before proceeding to use
-                            this site. If you do not expressly agre to all of the terms and
-                            conditions, then please do not access or use our site or our services.
-                            This terms of service agreement is effective as the date you sign up. </p>
+                        By accessing or using SouthFLDevJobs, known as "our website", and our services,
+                        you hereby agree to be bound by the terms and all terms incorporated
+                        herein by reference. It is the responsibility of you, the user, or
+                        potential User, to read the terms and conditions before proceeding to use
+                        this site.
+                    </Card.Text> 
+                    <Card.Text>
+                        There will be some legal language here about how SouthFLDevJobs deals with 
+                        persome information of our users, how we collect, use, protect, and
+                        share this information. Users include those who visit our website and use our
+                        mobile web applicationWe, and otherwise interact with us. 
                     </Card.Text>
-                    <Button variant="primary">I agree.</Button>
+                    <Card.Text>
+                        If you do not expressly agre to all of the terms and
+                        conditions, then please do not access or use our site or our services.
+                        This terms of service agreement is effective as the date you sign up. 
+                    </Card.Text>
+                   <div className='AgreeButton'>
+                        <Button variant="mb-3 btn-primary">I agree.</Button>
+                    </div>
                 </Card.Body>
             </Card>
             <br>
