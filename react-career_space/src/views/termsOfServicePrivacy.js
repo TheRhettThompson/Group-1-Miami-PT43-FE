@@ -20,17 +20,18 @@ function TermsOfServicePrivacy() {
                     </Card.Text> 
                     <Card.Text className='tosText'>
                         There will be some legal language here about how SouthFLDevJobs deals with 
-                        persome information of our users, how we collect, use, protect, and
-                        share this information. Users include those who visit our website and use our
-                        mobile web applicationWe, and otherwise interact with us. 
+                        the personal information of our users, and how we collect, use, protect, and
+                        share this information. Users include those who visit our website and those 
+                        who use our mobile web application, along with and how users otherwise interact 
+                        with us. 
                     </Card.Text>
                     <Card.Text className='tosText'>
-                        If you do not expressly agre to all of the terms and
-                        conditions, then please do not access or use our site or our services.
+                        If you do not expressly agree to all of the terms and
+                        conditions stated above, then please do not access or use our site or our services.
                         This terms of service agreement is effective as the date you sign up. 
                     </Card.Text>
                    <div className='AgreeButton'>
-                        <Button className='agreeButton' variant="mb-3 btn btn-info">I agree.</Button>
+                        <Button className='agreeButton' variant="mb-3 btn btn-primary">I agree</Button>
                     </div>
                 </Card.Body>
             </Card>

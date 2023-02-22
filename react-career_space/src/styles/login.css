@@ -18,9 +18,9 @@
 }
 
 .signup-form button {
-    border: solid 2px aqua !important;
+    border: solid 2px #0d6efd !important;
     border-radius: 30px !important;
-    background-color: aqua !important;
+    background-color: #0d6efd !important;
     color: white !important;
     width: 26%;
 }
