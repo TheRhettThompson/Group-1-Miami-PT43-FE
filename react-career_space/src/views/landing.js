@@ -175,7 +175,7 @@ function Landing() {
             <Card.Body>
               <Card.Title>Be a pioneer</Card.Title>
               <Card.Text>
-                South Florida is on its way to becoming the East Coast Silicon Valley. 
+                South Florida is on its way to becoming the East Coast Silicon Valley.<br/> 
                 I want to be a part of it, and SouthFLDevJobs makes it easy.
               </Card.Text>
             </Card.Body>
@@ -187,7 +187,7 @@ function Landing() {
               <Card.Title>Right in my backyard</Card.Title>
               <Card.Text>
                 I thought I'd have to leave Miami to get a job in coding. 
-                Not anymore. With SouthFLDevJobs I know the opportunities are right here.
+                Not anymore.<br/>With SouthFLDevJobs I know the opportunities are right here.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -211,7 +211,7 @@ function Landing() {
             <Card.Body>
               <Card.Title>The best jobs for the best talent</Card.Title>
               <Card.Text>
-                South Florida is by far one of the best places for tech professionals <br/> 
+                South Florida is by far one of the best places for tech professionals
                 to develop careers. SouthFLDevJobs is the best tool to do that!
               </Card.Text>
             </Card.Body>

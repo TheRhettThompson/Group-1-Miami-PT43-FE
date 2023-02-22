@@ -98,7 +98,9 @@
 
 .testimonyCard{
     margin: 1rem;
+    width: 600px !important;
 }
+
 
 .SocialMedia{
     padding: 5px;
