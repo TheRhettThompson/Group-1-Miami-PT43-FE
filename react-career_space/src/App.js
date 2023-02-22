@@ -11,7 +11,7 @@ import Login from './views/login';
 import Signup from './views/signup';
 import ContactUs from './views/ContactUs.js';
 import TermsOfServicePrivacy from './views/termsOfServicePrivacy';
-import Favorites from './views/Favorites';
+// import Favorites from './views/Favorites';
  
 
 
@@ -33,7 +33,7 @@ function App() {
           <Route exact path="/jobs" element={<Jobs />} />
           <Route exact path="/contactus" element={<ContactUs />} />
           <Route exact path="/termsofserviceprivacy" element={<TermsOfServicePrivacy />} />
-          <Route exact path="/favorites" element={<Favorites />} />
+          {/* <Route exact path="/favorites" element={<Favorites />} /> */}
 
         </Routes>
         <Footer />

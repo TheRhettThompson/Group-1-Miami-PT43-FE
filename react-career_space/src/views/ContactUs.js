@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "../styles/ContactUs.css"
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
-import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
-import InputGroup from 'react-bootstrap/InputGroup';
+// import Dropdown from 'react-bootstrap/Dropdown';
+// import DropdownButton from 'react-bootstrap/DropdownButton';
+// import InputGroup from 'react-bootstrap/InputGroup';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 
@@ -20,10 +20,9 @@ function ContactUs() {
           <Card.ImgOverlay className='imageOverlay'>
             <Card.Title><h1>We want to hear from you</h1></Card.Title>
             <Card.Text>
-              Contact SouthFLDevJobs with questions or inquiries. This is a wider card with supporting text below as a natural lead-in
-              to additional content. This content is a little bit longer.
+              Contact SouthFLDevJobs with questions or inquiries.  
             </Card.Text>
-            <Card.Text>Last updated 3 mins ago</Card.Text>
+            {/* <Card.Text>Last updated 3 mins ago</Card.Text> */}
           </Card.ImgOverlay>
         </Card>
       </div>

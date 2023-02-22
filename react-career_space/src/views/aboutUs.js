@@ -19,20 +19,21 @@ function AboutUs() {
       <div className="MissionStatementFigure container">
         <div style={{display:'flex' , justifyContent:'center' , alignItems:'center'}}>
           <img style={{width:'350px' , height:'350px'}} src="https://images.unsplash.com/photo-1531498860502-7c67cf02f657?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=1600&q=60/171x180" />
-          <h1>It all started because we were going through bootcamp, 
-            and looking for good jobs in the area that we wouldn't have to physically relocate to....</h1>
+          <h1>Once upon a time, there were three coding bootcamp students who wondered 
+            if they would have to leave South Florida in order to get a job.</h1>
         </div>
 
         <p>
-          Our mission at SouthFLDevJobs.com is to provide job seekers and employers in the tech industry in
-          South Florida with a user-friendly and comprehensive platform for job
-          listings. We understand the challenges faced by job seekers in the region.
-          While in coding bootcamp, we struggled to find relevant job opportunities that would
-          not require us physically relocating. Our web app is designed to streamline the job search process and provide
+          Our mission at South FL Dev Jobs is to provide job seekers
+          with a user-friendly and comprehensive platform for tech industry opportunities. <br/>
+        
+          Our web app is designed to streamline the job search process and provide
           accurate and specific job listings in Miami-Dade, Broward, and Palm Beach
-          counties. We are committed to supporting the growth of the tech industry
+          counties. <br/>
+          
+          We are committed to supporting the growth of the tech industry
           in South Florida by connecting talented individuals with exciting career
-          opportunities and helping businesses find the right talent to thrive and succeed
+          opportunities and helping businesses find the right talent to thrive and succeed.
         </p>
         {/* <Figure.Image     
           src="https://images.unsplash.com/photo-1531498860502-7c67cf02f657?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=1600&q=60/171x180"/>
@@ -160,17 +161,8 @@ function AboutUs() {
         </CardGroup>
       </div>
 
-      <br>
-      </br>
-
-      {/* <Card>
-        <Card.Body>
-          <Card.Text>
-            <h1>Something interesting here</h1>
-          </Card.Text>
-        </Card.Body>
-        <Card.Img variant="bottom" src="https://images.unsplash.com/photo-1518893494013-481c1d8ed3fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fFdoZXJlJTIwYXJlJTIwdGhlJTIwam9ic3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1600&q=60/100px180" />
-      </Card> */}
+      {/* <br>
+      </br> */}
 
       <br />
 
@@ -178,10 +170,10 @@ function AboutUs() {
         <Card style={{}}>
           <Card.Body>
             <Card.Title>We want to thank you!</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+            {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
             <Card.Text>
               This project was made possible with the help of United Way Miami Workforce Project,
-              4Geeks Academy, and a generous gift from philanthropist Mackenzie Scott.
+              4Geeks Academy, <br />and a generous gift from philanthropist Mackenzie Scott.
             </Card.Text>
             <Figure.Image className='thankYouImg' variant="top" src={UWM} />
             <Figure.Image className='thankYouImg' variant="top" src={SF} />
@@ -192,15 +184,7 @@ function AboutUs() {
         </Card>
       </div>
 
-
-
-
-      {/* <ButtonGroup aria-label="Companies" size="lg" className="mb-2">
-        <Button variant="light"><a href='https://ryder.com/careers' target='_blank' >
-          <img className='companyLogos' src={ryderLogo} /> </a>
-        </Button> */}
-
-
+      <br />    
 
     </div>
 

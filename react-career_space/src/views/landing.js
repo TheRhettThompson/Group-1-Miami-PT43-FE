@@ -4,7 +4,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
-import Figure from 'react-bootstrap/Figure';
 import Form from 'react-bootstrap/Form';
 import ryderLogo from '../assets/ryder-system-inc-logo-vector.png';
 import chewyLogo from '../assets/chewy_logo.png';
@@ -72,7 +71,7 @@ function Landing() {
 
                   <div className='formControlBox'>
                     <Form.Control className='formEmailImput' type="email" placeholder="Enter your email address" />
-                    <Button variant="mb-3" type="submit">
+                    <Button variant="mb-3 primary" type="submit">
                       Start now
                     </Button>
                   </div>
@@ -83,7 +82,7 @@ function Landing() {
             </div>
             <Form.Text className="text-muted">
               We'll never share your email with anyone else. By signing up for SouthFLDevJobs,
-              you agree to our <Link to='/termsofserviceprivacy'>Terms of Service & Privacy Policy</Link>
+              you agree to our <Link to='/termsofserviceprivacy'>Terms of Service & Privacy Policy.</Link>
 
             </Form.Text>
           </Card.Body>
@@ -98,7 +97,7 @@ function Landing() {
           <Card.Body>
             <Card.Title><h2>Free to use</h2></Card.Title>
             <Card.Text>
-              that's right. Find actual tech job listings at no cost.
+              That's right. Find actual tech job listings at no cost.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -118,7 +117,7 @@ function Landing() {
           <Card.Body>
             <Card.Title><h2>Jobs of all tech levels available</h2></Card.Title>
             <Card.Text>
-              From junior and entry level, to c-suite, SouthFLDevJobs has it all.
+              From junior dev, entry level, senior to c-suite, we have it all.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -152,15 +151,17 @@ function Landing() {
       </br>
       <div className='quoteCard container'>
         <Card border="info">
-          <Card.Header>Live your best life</Card.Header>
+          <Card.Header>Live your best life, doing what you enjoy</Card.Header>
           <Card.Body>
             <blockquote className="blockquote mb-0">
               <p>
                 {' '}
-                If you would have told me that I would be able to find a web dev job for an innovative startup that could easily fit in Silicon Valley, but I get to code on the beach, I would have never believed it. Until I found SouthFLDevJobs, of course!{' '}
+                If you told me that I would be able to find a dev job at an innovative startup that could have easily fit in Silicon Valley,<br />
+                but I get to code on the beach, I would have never believed it.
+                Until I found SouthFLDevJobs, of course!{' '}
               </p>
               <footer className="blockquote-footer">
-                Jackie Smith <cite title="Source Title">web developer, PalmFrond.com</cite>
+                Masae Christian <cite title="Source Title">software developer, HibiscusTech.com</cite>
               </footer>
             </blockquote>
           </Card.Body>
@@ -174,8 +175,8 @@ function Landing() {
             <Card.Body>
               <Card.Title>Be a pioneer</Card.Title>
               <Card.Text>
-                South Florida is on its way to becoming the East Coast Silicon Valley.
-                I want to be a part of it, and SouthFLDevJobs makes it easy!
+                South Florida is on its way to becoming the East Coast Silicon Valley. 
+                I want to be a part of it, and SouthFLDevJobs makes it easy.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -185,8 +186,8 @@ function Landing() {
             <Card.Body>
               <Card.Title>Right in my backyard</Card.Title>
               <Card.Text>
-                I thought I'd have to leave Miami to get a job in coding.
-                But not anymore, with SouthFLDevJobs I know the opportunities are right here!
+                I thought I'd have to leave Miami to get a job in coding. 
+                Not anymore. With SouthFLDevJobs I know the opportunities are right here.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -196,11 +197,11 @@ function Landing() {
           <Card className='testimonyCard' border="info">
             <Card.Img variant="top" src="https://images.unsplash.com/photo-1613324996029-f6190a17838f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzkwfHx3b3JraW5nJTIwb24lMjBjb21wdXRlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60/100px160" />
             <Card.Body>
-              <Card.Title>SOME BLURB HERE</Card.Title>
+              <Card.Title>Career switchers</Card.Title>
               <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                As a newbie, I thought it would be tough 
+                to find companies open to my skillset. SouthFLDevJobs has so many listings
+                that are a great match!
               </Card.Text>
             </Card.Body>
           </Card>
@@ -210,7 +211,7 @@ function Landing() {
             <Card.Body>
               <Card.Title>The best jobs for the best talent</Card.Title>
               <Card.Text>
-                South Florida is by far one of the best places for tech professionals
+                South Florida is by far one of the best places for tech professionals <br/> 
                 to develop careers. SouthFLDevJobs is the best tool to do that!
               </Card.Text>
             </Card.Body>

@@ -7,13 +7,11 @@
     }
 
 .HomeIntro{
-    object-fit: cover;
-   
-    
+    object-fit: cover; 
 }
 
 .homeImgOverTop{
-    padding-top: 5rem !important;
+    padding-top: 6rem !important;
 }
 
 .homeIntroImg{
@@ -33,10 +31,14 @@
 .WelcomeToButtons{
     padding: 5px;
     margin: 20px;
-    width: 100px;
+    width: 200px;
     border: none;
     border-radius: 30px;
-    background-color: aqua;
-    color: chartreuse;
+    background-color: #0d6efd;
+    color: white;
 }
 
+.WelcomeToButtons button:hover{
+    background-color: rgb(142,121,62);
+    color: white;
+}

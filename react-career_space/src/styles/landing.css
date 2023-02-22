@@ -37,7 +37,6 @@
         90deg, 
         rgba(142,121,62,0.947391456582633) 5%,
         rgba(173,151,79,0.5776435574229692) 42%);
-
 }
 
 .container{
@@ -46,7 +45,6 @@
 
 .formEmailImput{
     width: 400px !important;
-
 }
 
 .formEmailContainer{
@@ -59,8 +57,7 @@
 .callToActionImput{
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 .formControlBox{
@@ -69,26 +66,21 @@
 
 .callToActionBox{
     background-color: darksalmon;
-    padding-top: 5px;
+    /* padding-top: 5px;
     padding-bottom: 5px;
+    padding-left: 5px; */
+    padding: 8px;
 }
 
 .StartNow button{
-    background-color: #ed13e5;
-    
+    background-color: #0d6efd;
+    color: white;
 }
 
 .StartNow button:hover{
-    background-color: #ab0ca5;
-}
-
-/* .button{
-    border: solid 2px;
-    border-radius: 30px;
-    background-color: ;
+    background-color: rgb(142,121,62);
     color: white;
-    width: 26%;
-} */
+}
 
 
 .companyLogos{

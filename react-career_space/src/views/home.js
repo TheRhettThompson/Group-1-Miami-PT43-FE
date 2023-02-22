@@ -14,10 +14,9 @@ export const Home = () => {
 					<Card.ImgOverlay className="homeImgOverTop">
 						<Card.Title><h1>Open New Opportunities</h1></Card.Title>
 						<Card.Text>
-							Something here. This is a wider card with supporting text below as a natural lead-in
-							to additional content. This content is a little bit longer.
+							Your next tech job could be under the sun.
 						</Card.Text>
-						<Card.Text>Something here</Card.Text>
+						{/* <Card.Text>Something here</Card.Text> */}
 					</Card.ImgOverlay>
 				</Card>
 			</div>
@@ -27,30 +26,26 @@ export const Home = () => {
 					<Card.Img className="homeIntroImg" src="https://images.unsplash.com/photo-1551989858-b296d6bf011a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1pYW1pJTIwdGVjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60/100px270" alt="Card image" />
 					<Card.ImgOverlay className="homeIntroOverlay">
 						<Card.Title><h1>You need a job in the tech industry.</h1></Card.Title>
-						<Card.Title><h1>South Florida needs you.</h1></Card.Title>
-						<Card.Text>
+						<Card.Title><h1>South Florida tech industry needs you.</h1></Card.Title>
+						{/* <Card.Text>
 							This is a wider card with supporting text below as a natural lead-in
 							to additional content. This content is a little bit longer.
-						</Card.Text>
-						
+						</Card.Text> */}
 					</Card.ImgOverlay>
 				</Card>
 			</div>
-
-
-			{/* stop here */}
 
 			<br />
 
 			<div className="WelcomeTo container">
 				<Card className="text-center">
-					<Card.Header>There's no time like the present</Card.Header>
+					{/* <Card.Header>There's no time like the present</Card.Header> */}
 					<Card.Body>
 						<Card.Title>
 							<h1>Welcome to South FL Dev Jobs</h1>
 						</Card.Title>
 						<Card.Text>
-							All of South Florida tech sector jobs. All in one place.
+							All of the South Florida tech sector jobs. All in one place.
 						</Card.Text>
 
 						<div className=" " >
@@ -63,75 +58,76 @@ export const Home = () => {
 						</div>
 
 
-						
+
 
 					</Card.Body>
-					<Card.Footer className="text-muted">SOMETHING HERE</Card.Footer>
+					{/* <Card.Footer className="text-muted">SOMETHING HERE</Card.Footer> */}
 				</Card>
 				{/* something here */}
 
 
 			</div>
 
-			
+
 
 			<div className="TriCounties container">
 				<CardGroup>
 					<Card>
-						<Card.Img variant="top" src="holder.js/100px160" />
-						<Card.Body>
-							<Card.Title>Miami-Dade</Card.Title>
-							<Card.Text>
-								Find jobs in the Miami metropolitan area. This is a wider card with supporting text below as a natural lead-in
-								to additional content. This content is a little bit longer.
-							</Card.Text>
-						</Card.Body>
-						<Card.Footer>
-							<small className="text-muted">Last updated 3 mins ago</small>
-						</Card.Footer>
-					</Card>
-					<Card>
-						<Card.Img variant="top" src="holder.js/100px160" />
+						<Card.Img variant="top" src="https://images.unsplash.com/photo-1577172249844-716749254893?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHNvdXRoJTIwYmVhY2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60/100px160" />
 						<Card.Body>
 							<Card.Title>Broward</Card.Title>
 							<Card.Text>
-								Find jobs in the Ft Lauderdale area.This card has supporting text below as a natural lead-in to
-								additional content.{' '}
+								Tech jobs in Fort Lauderdale, Hollywood, Coral Springs, Pompano Beach.
 							</Card.Text>
 						</Card.Body>
 						<Card.Footer>
-							<small className="text-muted">Last updated 3 mins ago</small>
+							<small className="text-muted"><Button variant="primary">Find tech jobs in Broward</Button>{' '}</small>
 						</Card.Footer>
 					</Card>
+					
+					
 					<Card>
-						<Card.Img variant="top" src="holder.js/100px160" />
+						<Card.Img variant="top" src="https://images.unsplash.com/photo-1623424461995-c418632a2b16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZG93bnRvd24lMjBtaWFtaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60/100px160" />
+						<Card.Body>
+							<Card.Title>Miami-Dade</Card.Title>
+							<Card.Text>
+								Tech jobs in the Miami metropolitan area. <br /> South Beach, Coral Gables, Doral, Kendall down to the Florida Keys.
+							</Card.Text>
+						</Card.Body>
+						<Card.Footer> 
+							<small className="text-muted"><Button variant="primary">Find tech jobs in Miami-Dade</Button>{' '}</small>
+						</Card.Footer>
+					</Card>
+
+					
+
+					<Card>
+						<Card.Img variant="top" src="https://images.unsplash.com/photo-1549399541-337e17f70ad7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHdlc3QlMjBwYWxtJTIwYmVhY2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60/100px160" />
 						<Card.Body>
 							<Card.Title>Palm Beaches</Card.Title>
 							<Card.Text>
-								Find jobs in Boca Raton, West Palm Beach, and other cities. This is a wider card with supporting text below as a natural lead-in
-								to additional content. This card has even longer content than the
-								first to show that equal height action.
+								Tech jobs in Boca Raton, West Palm Beach, Delray Beach, Lake Worth and beyond.
 							</Card.Text>
 						</Card.Body>
 						<Card.Footer>
-							<small className="text-muted">Last updated 3 mins ago</small>
+							<small className="text-muted"><Button variant="primary">Find tech jobs in Palm Beaches</Button>{' '}</small>
 						</Card.Footer>
 					</Card>
 				</CardGroup>
-				
 
 
-				
 
-				
+
+
+
 			</div>
-			<br/>
-			
+			<br />
+
 
 			{/* <div>
 				<h1>Career Advice</h1>
 			</div> */}
-{/* 
+			{/* 
 			<div>
 					<h1>Latest happenings and events</h1>
 			</div> */}
